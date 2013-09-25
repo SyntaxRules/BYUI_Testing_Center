@@ -1,0 +1,89 @@
+SCOUT = Facilitates the testing for the testing center
+
+Web based program "Scalability" and wide use not using too much bandwidth
+
+
+Bud Wood and John Dexter - Original Programers - PIC Basic - Both Retired
+
+20 years to get to this point.
+
+Current competetor is excelsoft - they are currently buliding a small portion of
+their lms program to help the academic discovery center. They are able to tweak
+it to meet the needs of the university. They should be able to integrate it into
+iLearn.
+Has compiler that will able to run code in a "sand box" enviroment.
+
+The purpose of the TC is to save class time, and to enable students to take as
+long as they need for tests, and allow teachers to teach more, and not waste
+time.
+
+Afformitave - quizes - System can keep track of these assesments for teachers
+
+
+Summative - tests/finals - need TC to do these tests
+
+
+Problems:
+1. Paper Pencil Exams - TC wants to go to computer based exams for:
+                        Security, Randomized question order, analysis,
+
+2. SCOUT only prints a cover sheet (glorified time stamp) for computer based
+tests. Is able to print tests on demand, and also will keep track of what tests
+have been printed. It knows how many ppl are taking the tests.
+
+3. iLearn has to go.
+
+4. Any system that governs the testing center should have assement capabilities
+5. We dont want to over schedule and make it a problem (focus on closing date,
+                                                              most students take
+                                                              tests on closing
+                                                              day)
+5. Program needs to be able to know the schedule
+6. No method of control for Finals week
+7. System needs to keep track of results and immediate results
+8. I-Card vs I-Num Only thing is that we need a picture identification (query
+                                                                        school
+                                                                        db)
+9. Needs to be able to export back into Gradebook
+10. Needs to be able to study how the test works (Pshycometrics)
+11. Give student feedback on how they are doing
+12. Immediate feedback can be given through a iLearn app that uploads score and comments
+13. Proctor online students
+
+
+Factors of lines
+1. Not enough Computers (70) to administer tests (Surface Pros eventually to be used)
+2. Peak time (students seem to mass at the same time) - Schedule times to take tests
+
+Regarding overflow centers:
+1. What type of test needs to be faciliated: Computer or Paper
+2.
+
+
+Test Process (Paper) -> Faculty (create exam) -> submitted (w/Key) to TC -> Assistant
+will (Schedule it, Get paperwork to get it into system Sis. Grover) -> Gloria
+Horrocks (Enters test information into SCOUT 19 step process) -> put on wall of
+tests
+
+Online
+Faculty -> Kevin
+
+Scheduling, Testing, And Score Delivery, and Analytics
+
+Remote proctor password allocation -> Need to know Who is Taking it, What they
+are taking, and the password
+
+How can we effectively use time scheduling to schedule times and manage the
+natural man?
+
+Assign seats, so no two test are close together
+
+Program --- Purpose
+1. Power Point - Test Schedule
+2. Exam Stat - Psychometrics
+3. Java Applet - Picture Lookup
+4. PHP - Website/Score Board
+5. EMS - ADA(Disability) Scheduling - What things should they be allowed to have?
+6. DOS - Jenzebar import(student/fac/course info)
+7. Outlook - Communications
+8. SCOUT - Test Entry/Delivery/number keeping/records
