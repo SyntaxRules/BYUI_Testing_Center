@@ -12,7 +12,8 @@ Please check out this file, put your name (and username) below and push it to gi
 I have successfully pushed to gitHub:
 ---------------------------
 Devyn S (SyntaxRules)<br/>
-Adam Gneiting
+Adam Gneiting <br/>
+Jeremy McCurdy <br/>
 
 
 How to clone and push to this project:
