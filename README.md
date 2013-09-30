@@ -13,6 +13,7 @@ I have successfully pushed to gitHub:
 ---------------------------
 Devyn S (SyntaxRules)<br/>
 Adam Gneiting
+Victor Sanuy<br/>
 
 
 How to clone and push to this project:
