@@ -12,9 +12,12 @@ Please check out this file, put your name (and username) below and push it to gi
 I have successfully pushed to gitHub:
 ---------------------------
 Devyn S (SyntaxRules)<br/>
-Adam Gneiting
-Jordan Jensen
+Adam Gneiting<br/> 
+Victor Sanuy<br/> 
+Jordan Jensen<br/> 
 Michael Nelson <br/>
+Jeffery Schiers<br/>
+Jeremy McCurdy <br/> 
 
 
 How to clone and push to this project:
