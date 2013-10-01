@@ -18,6 +18,7 @@ Jordan Jensen<br/>
 Michael Nelson <br/>
 Jeffery Schiers<br/>
 Jeremy McCurdy <br/> 
+Sourya Sharma <br/>
 
 
 How to clone and push to this project:
