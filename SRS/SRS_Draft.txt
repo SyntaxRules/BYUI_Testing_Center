@@ -41,6 +41,7 @@ I-Learn -
 +The system shall provide music in one separate room of testing. (How do they do this currently? A cd player? If so do they want to be able to turn on/off music from the testing center system?) The interface here is to the existing speaker in the wall, if applicable.
 +if deemed appropriate the system shall provide music to the line as well.
 +System shall be scalable (ie desktops to mobile)
++System must be written in a language that is maintainable
 
 2.1.2.	User interfaces
 +Upon error the User will be informed of the error and a current testing center employee (who is working at a computer).
