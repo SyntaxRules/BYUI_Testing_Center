@@ -22,6 +22,12 @@ Jeremy McCurdy <br/>
 Sourya Sharma <br/>
 Nathan Brewster (natebrew) <br/>
 
-How to clone and push to this project:
+How to contribute to this project:
 ---------------------------------------------
-* Read the tutorials on your home page at https://github.com/ for the best information.
+This is _all_ done in the browser. So you wont need to do any forking or handling with git on your local machine
+* Click on the *.txt file you wish to edit.
+* Click the 'edit' btn in browser.
+* Edit the *.txt file add a commit summary at the bottom of the page.
+* Click 'Propose new change' btn at the bottom of the page.
+* After being directed to a new page add some comments and click, create change request.
+
