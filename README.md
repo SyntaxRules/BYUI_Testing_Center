@@ -12,6 +12,7 @@ Please check out this file, put your name (and username) below and push it to gi
 I have successfully pushed to gitHub:
 ---------------------------
 Devyn S (SyntaxRules)<br/>
+Adam Harper<br/>
 Adam Gneiting<br/> 
 Victor Sanuy<br/> 
 Jordan Jensen<br/> 
