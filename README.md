@@ -13,7 +13,7 @@ I have successfully pushed to gitHub:
 ---------------------------
 Devyn S (SyntaxRules)<br/>
 Adam Harper<br/>
-Adam Gneiting<br/> 
+Adam J. Gneiting<br/> 
 Victor Sanuy<br/> 
 Jordan Jensen<br/> 
 Michael Nelson <br/>
