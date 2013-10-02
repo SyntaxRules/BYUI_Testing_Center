@@ -17,7 +17,7 @@ Adam Gneiting<br/>
 Victor Sanuy<br/> 
 Jordan Jensen<br/> 
 Michael Nelson <br/>
-Jeffery Schiers (schiersj)<br/>
+Jeffery Schiers<br/>
 Jeremy McCurdy <br/> 
 Sourya Sharma <br/>
 Nathan Brewster (natebrew) <br/>
