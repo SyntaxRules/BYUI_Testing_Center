@@ -1,0 +1,154 @@
+1.	Introduction
+
+1.1.	 Purpose (Devyn) (Adam: Review) (Chris: Final Review)
+
+1.1.1.	Delineate the purpose of the SRS
+
+1.1.2.	Specify the intended audience
+
+1.2.	 Scope (Devyn) (Adam: Review)
+
+1.2.1.	Identify Software to be produced by name
+
+1.2.2.	Explain what the software product will and will not do
+
+1.2.3.	Application of the software
+
+1.2.3.1.	Relevant benefits
+
+1.2.3.2.	Objectives
+
+1.2.3.3.	Goals
+1.3.	 Definitions, Acronyms and Abbreviations (All)
+FERPA –
+I-Number – 
+I-Learn -
+
+1.4.	 References (All)
+
+1.5.	 Overview (Adam)
+
+1.5.1.	What the rest of the SRS contains?
+
+1.5.2.	How the SRS is organized?
+
+2.	Overall description (Devyn: Draft) (Jordan: man in middle) (Chris: Final Review)
+
+2.1.	 Product Perspective
+
+2.1.1.	System interfaces
++The system shall be able to look up a student (including picture) based on I-Number. The interface here is to the existing school systems.
++The system shall provide music in one separate room of testing. (How do they do this currently? A cd player? If so do they want to be able to turn on/off music from the testing center system?) The interface here is to the existing speaker in the wall, if applicable.
++if deemed appropriate the system shall provide music to the line as well.
++System shall be scalable (ie desktops to mobile)
+
+2.1.2.	User interfaces
++Upon error the User will be informed of the error and a current testing center employee (who is working at a computer).
++The student tacking a test shall not be able to go to any other program on their testing device (electronic).
++The user interface shall enable a testing center employee with 5 months of experience to check out a test within 3 min.
++System shall be scalable (ie desktops to mobile)
+
+2.1.3.	Hardware interfaces
++The system shall provide information about the average waiting time before entering the line using a monitor (TV).
++There shall be a device for entering the student’s I-Number, connected via USB to a Testing center Employee’s work station/computer.
++System shall handle multiple testing locations
++System shall be scalable (ie desktops to mobile)
+
+2.1.4.	Software interfaces
++Students shall be able to review scheduled tests and what they are allowed to bring to their test before arriving at the testing center. The interface here is to a web browser.
++The System shall interact with I-Learn interfaces to upload grades. 
++The System shall interact with I-Learn interfaces to upload statistics.
++System shall handle multiple testing locations
++System shall allow online testing
++System shall be scalable (ie desktops to mobile)
++The system shall provide the option to schedule tests.
++The system shall provide information about the average waiting time before entering the line.
++The system shall provide information about the average waiting time before entering the line. +The user will be able to check this information in the school website.
+
+2.1.5.	Communication interfaces
++Any HTML content served shall be compliant with HTTP protical 1.1
++System shall allow online testing
+
+2.1.6.	Memory constraints
+
+2.1.7.	Operations
+
+2.1.8.	Site adaption requirements
+
++The system shall turn off and turn on by times specified by the Testing Center Employee’s
+
+2.2.	 Product Functions
++electronic tests (including serving of computers)
++Paper tests (including printing of tests)
++System shall allow online testing
++System shall be scalable (ie desktops to mobile)
+
+2.3.	 User Characteristics
+
+2.4.	 Constraints
+
+2.5.	 Assumptions and Dependencies
+
+2.6.	 Apportioning of requirements
+
+3.	Specific Requirements (Devyn: Draft) (Jordan: man in middle)  (Chris: Final Review)
+
+3.1.	 External interfaces
++Enable student to view scores and times for past, current and upcoming tests in the testing center
++System shall allow online testing
++System shall be scalable (ie desktops to mobile)
++The system shall provide information about what is required to bring to the testing center.
++The system shall provide information about what is allowed to bring to the testing center.
++The system shall provide information about what is not allowed to bring to the testing center.
++The system shall provide information about what is required to bring to the testing center
++The system shall provide information about the average waiting time before entering the line.
+
+3.2.	 Functions
+
+3.3.	 Performance requirements
++The system shall support 500 students taking a test at any given time (either electronic or paper)
++The system shall support X number of employee terminals
++System shall handle multiple testing locations
++System shall be scalable (ie desktops to mobile)
+
+3.4.	 Logical database requirements
+
+3.5.	 Design constraints
+
+3.5.1.	Standards compliance
+
+3.6.	 Software system attributes
+
+3.6.1.	Reliability
+
+3.6.2.	Availability
+
+3.6.3.	Security
+
+3.6.4.	Maintainability
+
+3.6.5.	Portability
+
+3.7.	 Organizing the specific requirements
+
+3.7.1.	System mode
+
+3.7.2.	User class
+
+3.7.3.	Objects
+
+3.7.4.	Feature
+
+3.7.5.	Stimulus
+
+3.7.6.	Response
+
+3.7.7.	Functional hierarchy
+
+3.7.8.	Additional comments
+
+4.	Supporting information
+
+4.1.	Table of contents and index
+
+4.2.	Appendixes
