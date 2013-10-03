@@ -71,6 +71,7 @@ Specific Requirements
 +There shall be a device for entering the student’s I-Number, connected via USB to a Testing center Employee’s work station/computer.
 +System shall handle multiple testing locations
 +System shall be scalable (ie desktops to mobile)
++System shall be able to show test results as students leave the testing center
 
 2.1.4.	Software interfaces
 +Students shall be able to review scheduled tests and what they are allowed to bring to their test before arriving at the testing center. The interface here is to a web browser.
@@ -86,6 +87,7 @@ Specific Requirements
 2.1.5.	Communication interfaces
 +Any HTML content served shall be compliant with HTTP protical 1.1
 +System shall allow online testing
++System shall allow for studnets to specify how test results are delivered
 
 2.1.6.	Memory constraints
 
