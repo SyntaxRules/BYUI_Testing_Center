@@ -21,6 +21,7 @@ Jeffery Schiers<br/>
 Jeremy McCurdy <br/> 
 Sourya Sharma <br/>
 Nathan Brewster (natebrew) <br/>
+David Reeves (dwrXeno5118) <br/>
 
 How to contribute to this project:
 ---------------------------------------------
