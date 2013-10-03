@@ -23,6 +23,7 @@ Sourya Sharma <br/>
 Nathan Brewster (natebrew) <br/>
 Michael Harten <br/>
 Christopher Corbaley <br/>
+Nathan Harman (nsharman) <br/>
 
 How to contribute to this project:
 ---------------------------------------------
