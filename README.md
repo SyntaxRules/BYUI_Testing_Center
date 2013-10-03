@@ -24,6 +24,7 @@ Nathan Brewster (natebrew) <br/>
 Michael Harten <br/>
 Christopher Corbaley <br/>
 Nathan Harman (nsharman) <br/>
+Adam Gorbahn (Pyrrus) <br /> 
 
 How to contribute to this project:
 ---------------------------------------------
