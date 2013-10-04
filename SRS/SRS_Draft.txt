@@ -58,7 +58,8 @@ Specific Requirements
 +The system shall provide music in one separate room of testing. (How do they do this currently? A cd player? If so do they want to be able to turn on/off music from the testing center system?) The interface here is to the existing speaker in the wall, if applicable.
 +if deemed appropriate the system shall provide music to the line as well.
 +System shall be scalable (ie desktops to mobile)
-+System must be written in a language that is maintainable
++System shall be maintainable.
+    +Written in a modern and popular language with proper documentation.
 
 2.1.2.	User interfaces
 +Upon error the User will be informed of the error and a current testing center employee (who is working at a computer).
@@ -72,6 +73,8 @@ Specific Requirements
 +System shall handle multiple testing locations
 +System shall be scalable (ie desktops to mobile)
 +System shall be able to show test results as students leave the testing center
++System shall be able to track paper tests
+    +It will take time for all staff to convert to digatal tests.
 
 2.1.4.	Software interfaces
 +Students shall be able to review scheduled tests and what they are allowed to bring to their test before arriving at the testing center. The interface here is to a web browser.
