@@ -146,6 +146,11 @@ Specific Requirements
 3.6.3.	Security
 
 3.6.4.	Maintainability
+The system shall be programmed in a language taught at BYU-Idaho.
+  EXP: The last system was programmed in PIC Basic and it was extremly hard to maintain. The reasons it was 
+  hard to maintain was the fact that not very many people know PIC Basic. For this reason, we need the system to 
+  built in a language that is understood by the students/faculty of BYU-Idaho. When the language is understood by these 
+  individuals it can be more easily maintained, in the future.
 
 3.6.5.	Portability
 
