@@ -66,10 +66,9 @@ Specific Requirements
 +System shall be maintainable.
     -Written in a modern and popular language with proper documentation.
 
-
 2.1.2.	User interfaces
 +Upon error the User will be informed of the error and a current testing center employee (who is working at a computer).
-+The student taking a test shall not be able to go to any other program on their testing device (electronic).
++The student tacking a test shall not be able to go to any other program on their testing device (electronic).
 +The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
     -Student staff may only work for a semester with limited to no previous computer skills.
 +System shall be scalable (ie desktops to mobile)
@@ -81,32 +80,30 @@ Specific Requirements
 +System shall be scalable (ie desktops to mobile)
 +System shall be able to show test results as students leave the testing center
 +System shall be able to track paper tests
-    -It will take time for all staff to convert to digital tests.
+    -It will take time for all staff to convert to digatal tests.
 
 2.1.4.	Software interfaces
 +Students shall be able to review scheduled tests and what they are allowed to bring to their test before arriving at the testing center. The interface here is to a web browser.
 +The System shall interact with I-Learn interfaces to upload grades. 
 +The System shall interact with I-Learn interfaces to upload statistics.
-    -For a teacher to review for knowledge of the test and it's content.
-    -Information can be broken down per user.
 +System shall handle multiple testing locations
 +System shall allow online testing
 +System shall be scalable (ie desktops to mobile)
 +The system shall provide the option to schedule tests.
     -To streamline process and avoid a crowded testing center.
-    -To avoid conflicts of testing times.
-    -To handle ADA (disabilities) scheduling.
+    -To handle ADA (disablities) scheduling.
 +The system shall provide information about the average waiting time before entering the line.
 +The system shall provide information about the average waiting time before entering the line. +The user will be able to check this information in the school website.
-System shall allow faculty to submit tests remotely
-    -To give teachers the option to change tests after submission.  
-    -Less chance for human error with no middle exchange.   
+System shall allow users to submit tests remotely
+  EXP: Some of the staff likes the current scout program for online submissions.
 System shall offer metrics for the testing services and teachers
+  EXP: Some teachers would like more in depth metrics on the tests taken.
 System shall time each test.
+  EXP: Teachers like to see how long it takes students to finish their test.
 System shall return time results to the teacher.
+  EXP: Teachers like to see how long it takes students to finish their test.
 System shall not require the downloading of any form.
-System shall not allow pausing a test.
-    -Not allow a user to "save for later" option of a test.
+  EXP: The submission process is bothersome and requires saving tests then emailing them.
 
 2.1.5.	Communication interfaces
 +Any HTML content served shall be compliant with HTTP protical 1.1
@@ -124,13 +121,8 @@ System shall not allow pausing a test.
 2.2.	 Product Functions
 +electronic tests (including serving of computers)
 +Paper tests (including printing of tests)
-+System shall monitor booklet number selections.
-    -Track test booklets to save on printing to many and stop cheating.
 +System shall allow online testing
 +System shall be scalable (ie desktops to mobile)
-+System shall scan testing center equipment in and out.
-    -Scan equipment into a database that is in the system.
-
 
 2.3.	 User Characteristics
 
@@ -155,19 +147,26 @@ System shall not allow pausing a test.
 3.2.	 Functions
 
 3.3.	 Performance requirements
-+The system shall support 500 students taking a test at any given time (either electronic or paper)
++The system shall support 500 students taking a test at any given time (either ezerolectronic or paper)
 +The system shall support X number of employee terminals
 +System shall handle multiple testing locations
 +System shall be scalable (ie desktops to mobile)
 System shall allow for last minute changes.
+  EXP: The teachers are not satisfied that they are unable to make important last minute changes to tests.
 
 3.4.	 Logical database requirements
 System shall give immediate access to student test results.
+  EXP: The teachers wants a quicker turn-around time.
 System shall display which tests have already been scheduled.
+  EXP: The teachers want to be able to see what tests are scheduled and when.
 System shall provide notifications about both paper and electronic tests.
+  EXP: The teachers don't like how the current notifications are from two different services.
 System shall offer multiple options for question formatting
+  EXP: The Teachers like the testing services, but they want the ability to have a sideways key for 
+       multiple choice questions.
 System shall offer metrics for the testing services and teachers
 System shall provide a way to create bubble sheet answers
+  EXP: Teachers woul like to create answers for the bubble sheets.
 3.5.	 Design constraints
 
 3.5.1.	Standards compliance
@@ -176,23 +175,40 @@ System shall provide a way to create bubble sheet answers
 
 3.6.1.	Reliability
 System shall successfully create a test from a single submission.
+  EXP: Teachers are dissatisfied with amount of times tests needed to be submitted. They want to be able to
+  submit it only once.
 System shall let any user create a test in less than 30 minutes.
 System shall not hinder the proctoring of exams
+  EXP: Many teachers love the proctored environment and they don't want to loose that with a new system.
 3.6.2.	Availability
 System shall allow for last minute changes.
+  EXP: The teachers are not satisfied that they are unable to make important last minute changes to tests.
 System shall immediately return possible dates to the user if the desired date is unavailable.
+  EXP: With the current system, it often takes teachers a long time to hear back from the testing center that
+       their chosen time in unavailable. If the chosen date is unavailable, the teachers would like to know 
+       immediately so they can adjust their scheduals if needed.
 System shall not hinder the proctoring of exams
 System shall only allow one test per student at a time.
+  EXP: Teachers like to know how long it takes a student to complete their test, but if the students are taking 
+       multiple tests at once they aren't able to recieve that information.
 System shall schedule on a first come first serve basis.
+  EXP: This would allow for the system to immediately inform the user if the desired date is unavailable.
 System shall offer reservation services for testing.
+  EXP: Some teachers avoid using the testing center because it's hard for their students to make it to tests
+       with their current schedual. Allowing the students to reserve a time for testing will make it easier
+       for students with tight schedual to take the test.
 System shall allow students to take exams only during their scheduled time
+  EXP: There have been cases where students have accedentally recieved future tests that were not schedualed to be
+       offered for a few weeks.
 3.6.3.	Security
 System shall allow for remote proctoring.
-   -All student information will be displayed on remote screen for proctor.
-System shall notify staff of attempts of cheating.
-    -Attempts to open unnecessary programs or features.
+  EXP: Some faculty don't use the testing services because they like to control the testing in their own classroom.
 System shall allow for designated, non-faculty, persons to review assessments.
+  EXP: Some teachers with write on tests would like their Teacher Aids to be able to grade and correct the tests.
+       With the current system, non-faculty persons are unable to access the tests.
 System shall allow students to take exams only for classes currently registered for.
+  EXP: In the past there have been instances where students were given the wrong exam. There have also been instances
+       where the wrong key was used to grade the tests, or proctors were having a hard time following the instructions.
 System shall only allow one test per student at a time.
 3.6.4.	Maintainability
 The system shall be programmed in a language taught at BYU-Idaho.
@@ -202,8 +218,7 @@ The system shall be programmed in a language taught at BYU-Idaho.
   individuals it can be more easily maintained, in the future.
 
 3.6.5.	Portability
-System shall allow to have temporary Testing Center areas to be set up in labs.
-      -During final times to convert labs into computer testing areas.
+
 3.7.	 Organizing the specific requirements
 
 3.7.1.	System mode
