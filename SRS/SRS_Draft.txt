@@ -37,7 +37,7 @@ It describes the requirements needed for the development process.
 1.5.1.	What the rest of the SRS contains?
 The next chapter, Overall Description section, gives an overview of the product.
 Which establishes a context for the technical requirements which are noted in section 3, Requirement Specifications.
-Section 3, Requirements Specifictaitons, is written in technical terms to explain the details of the functionality of this product.
+Section 3, Requirements Specifications, is written to explain the details of the functionality of this product.
 Both sections are written to describe the Testing Center Software in its entirety.
 
 1.5.2.	How the SRS is organized?
