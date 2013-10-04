@@ -66,9 +66,10 @@ Specific Requirements
 +System shall be maintainable.
     -Written in a modern and popular language with proper documentation.
 
+
 2.1.2.	User interfaces
 +Upon error the User will be informed of the error and a current testing center employee (who is working at a computer).
-+The student tacking a test shall not be able to go to any other program on their testing device (electronic).
++The student taking a test shall not be able to go to any other program on their testing device (electronic).
 +The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
     -Student staff may only work for a semester with limited to no previous computer skills.
 +System shall be scalable (ie desktops to mobile)
@@ -80,25 +81,32 @@ Specific Requirements
 +System shall be scalable (ie desktops to mobile)
 +System shall be able to show test results as students leave the testing center
 +System shall be able to track paper tests
-    -It will take time for all staff to convert to digatal tests.
+    -It will take time for all staff to convert to digital tests.
 
 2.1.4.	Software interfaces
 +Students shall be able to review scheduled tests and what they are allowed to bring to their test before arriving at the testing center. The interface here is to a web browser.
 +The System shall interact with I-Learn interfaces to upload grades. 
 +The System shall interact with I-Learn interfaces to upload statistics.
+    -For a teacher to review for knowledge of the test and it's content.
+    -Information can be broken down per user.
 +System shall handle multiple testing locations
 +System shall allow online testing
 +System shall be scalable (ie desktops to mobile)
 +The system shall provide the option to schedule tests.
     -To streamline process and avoid a crowded testing center.
-    -To handle ADA (disablities) scheduling.
+    -To avoid conflicts of testing times.
+    -To handle ADA (disabilities) scheduling.
 +The system shall provide information about the average waiting time before entering the line.
 +The system shall provide information about the average waiting time before entering the line. +The user will be able to check this information in the school website.
-System shall allow users to submit tests remotely
+System shall allow faculty to submit tests remotely
+    -To give teachers the option to change tests after submission.  
+    -Less chance for human error with no middle exchange.   
 System shall offer metrics for the testing services and teachers
 System shall time each test.
 System shall return time results to the teacher.
 System shall not require the downloading of any form.
+System shall not allow pausing a test.
+    -Not allow a user to "save for later" option of a test.
 
 2.1.5.	Communication interfaces
 +Any HTML content served shall be compliant with HTTP protical 1.1
@@ -116,8 +124,13 @@ System shall not require the downloading of any form.
 2.2.	 Product Functions
 +electronic tests (including serving of computers)
 +Paper tests (including printing of tests)
++System shall monitor booklet number selections.
+    -Track test booklets to save on printing to many and stop cheating.
 +System shall allow online testing
 +System shall be scalable (ie desktops to mobile)
++System shall scan testing center equipment in and out.
+    -Scan equipment into a database that is in the system.
+
 
 2.3.	 User Characteristics
 
@@ -175,6 +188,9 @@ System shall offer reservation services for testing.
 System shall allow students to take exams only during their scheduled time
 3.6.3.	Security
 System shall allow for remote proctoring.
+   -All student information will be displayed on remote screen for proctor.
+System shall notify staff of attempts of cheating.
+    -Attempts to open unnecessary programs or features.
 System shall allow for designated, non-faculty, persons to review assessments.
 System shall allow students to take exams only for classes currently registered for.
 System shall only allow one test per student at a time.
@@ -186,7 +202,8 @@ The system shall be programmed in a language taught at BYU-Idaho.
   individuals it can be more easily maintained, in the future.
 
 3.6.5.	Portability
-
+System shall allow to have temporary Testing Center areas to be set up in labs.
+      -During final times to convert labs into computer testing areas.
 3.7.	 Organizing the specific requirements
 
 3.7.1.	System mode
