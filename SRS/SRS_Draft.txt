@@ -94,6 +94,11 @@ Specific Requirements
     -To handle ADA (disablities) scheduling.
 +The system shall provide information about the average waiting time before entering the line.
 +The system shall provide information about the average waiting time before entering the line. +The user will be able to check this information in the school website.
+System shall allow users to submit tests remotely
+System shall offer metrics for the testing services and teachers
+System shall time each test.
+System shall return time results to the teacher.
+System shall not require the downloading of any form.
 
 2.1.5.	Communication interfaces
 +Any HTML content served shall be compliant with HTTP protical 1.1
@@ -141,9 +146,15 @@ Specific Requirements
 +The system shall support X number of employee terminals
 +System shall handle multiple testing locations
 +System shall be scalable (ie desktops to mobile)
+System shall allow for last minute changes.
 
 3.4.	 Logical database requirements
-
+System shall give immediate access to student test results.
+System shall display which tests have already been scheduled.
+System shall provide notifications about both paper and electronic tests.
+System shall offer multiple options for question formatting
+System shall offer metrics for the testing services and teachers
+System shall provide a way to create bubble sheet answers
 3.5.	 Design constraints
 
 3.5.1.	Standards compliance
@@ -151,11 +162,22 @@ Specific Requirements
 3.6.	 Software system attributes
 
 3.6.1.	Reliability
-
+System shall successfully create a test from a single submission.
+System shall let any user create a test in less than 30 minutes.
+System shall not hinder the proctoring of exams
 3.6.2.	Availability
-
+System shall allow for last minute changes.
+System shall immediately return possible dates to the user if the desired date is unavailable.
+System shall not hinder the proctoring of exams
+System shall only allow one test per student at a time.
+System shall schedule on a first come first serve basis.
+System shall offer reservation services for testing.
+System shall allow students to take exams only during their scheduled time
 3.6.3.	Security
-
+System shall allow for remote proctoring.
+System shall allow for designated, non-faculty, persons to review assessments.
+System shall allow students to take exams only for classes currently registered for.
+System shall only allow one test per student at a time.
 3.6.4.	Maintainability
 The system shall be programmed in a language taught at BYU-Idaho.
   EXP: The last system was programmed in PIC Basic and it was extremly hard to maintain. The reasons it was 
