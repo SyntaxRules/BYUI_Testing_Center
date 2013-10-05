@@ -103,8 +103,11 @@ System shall allow faculty to submit tests remotely
     -Less chance for human error with no middle exchange.   
 System shall offer metrics for the testing services and teachers
 System shall time each test.
+EXP: Teacher wants to know how much time is needed for tests
 System shall return time results to the teacher.
+EXP: Teacher wants to know how much time is needed for tests
 System shall not require the downloading of any form.
+EXP: The submission process is bothersome and requires saving tests then emailing them.
 System shall not allow pausing a test.
     -Not allow a user to "save for later" option of a test.
 
@@ -160,14 +163,23 @@ System shall not allow pausing a test.
 +System shall handle multiple testing locations
 +System shall be scalable (ie desktops to mobile)
 System shall allow for last minute changes.
+EXP: Teachers are dissatisfied with being unable to make last minute changes.
 
 3.4.	 Logical database requirements
 System shall give immediate access to student test results.
+EXP: The teacher wants a quicker turn-around time
 System shall display which tests have already been scheduled.
+EXP: Wants to be able to see what tests are scheduled when inorder to see when they can do a test
 System shall provide notifications about both paper and electronic tests.
+EXP: Doesn’t like how the currently notifications are from two different services.
 System shall offer multiple options for question formatting
+EXP: Teachers want the ability to have a sideways key for multiple choice questions
 System shall offer metrics for the testing services and teachers
+EXP: Teachers want better stats collection and ways to use it for tests
 System shall provide a way to create bubble sheet answers
+EXP: Teachers want a bubble sheet software that doesn't have a huge delay and errors
+System shall be able to export grades into I-learn.
+EXP: This used to be a feature, the teacher would like to be able to do it again.
 3.5.	 Design constraints
 
 3.5.1.	Standards compliance
@@ -176,24 +188,36 @@ System shall provide a way to create bubble sheet answers
 
 3.6.1.	Reliability
 System shall successfully create a test from a single submission.
+EXP: Teachers are dissatisfied with amount of times tests needed to be submitted
 System shall let any user create a test in less than 30 minutes.
+EXP: They use the services extensively and are satisfied with the time it takes (15 mins or less)
 System shall not hinder the proctoring of exams
+EXP: Some faculty members doesn’t use the services because they like to control the testing in their class. Also because the environment doesn’t allow them to accomplish their “educational goals”.
 3.6.2.	Availability
 System shall allow for last minute changes.
 System shall immediately return possible dates to the user if the desired date is unavailable.
+EXP:  Teachers suggested a web app to submit tests and schedule them, due to the back and forth to schedule tests
 System shall not hinder the proctoring of exams
+EXP: Some faculty members doesn’t use the services because they like to control the testing in their class. Also because the environment doesn’t allow them to accomplish their “educational goals”.
 System shall only allow one test per student at a time.
+EXP: Teacher wants to know how much time is needed for tests
 System shall schedule on a first come first serve basis.
+EXP: They would like unlimited space so they can schedule a test whenever they want.
 System shall offer reservation services for testing.
+EXP: Some teachers don't use the testing center specifically because of scheduling issues during the semester and finals.
 System shall allow students to take exams only during their scheduled time
+EXP: Students have been given wrong exam at wrong times
 3.6.3.	Security
 System shall allow for remote proctoring.
    -All student information will be displayed on remote screen for proctor.
 System shall notify staff of attempts of cheating.
     -Attempts to open unnecessary programs or features.
 System shall allow for designated, non-faculty, persons to review assessments.
+EXP: Some teachers doesn’t use the services very frequently because they mostly do writing tests that they like to look over or have their TA do it
 System shall allow students to take exams only for classes currently registered for.
+EXP: Teachers have had some issues with test previously including, students given wrong exam, used wrong key to grade, or proctors having hard time following instructions
 System shall only allow one test per student at a time.
+EXP: Teachers would like to effectively track how long it takes a student to take a test, if a student takes more than one test at a time, it is hard to gauge how long the test actually takes.
 3.6.4.	Maintainability
 The system shall be programmed in a language taught at BYU-Idaho.
   EXP: The last system was programmed in PIC Basic and it was extremly hard to maintain. The reasons it was 
