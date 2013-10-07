@@ -140,7 +140,7 @@ System shall not allow pausing a test.
 2.4.	 Constraints
 - shall connect to the scantron
 - allow for multiple tests to be taken at once
-- shall be reliable as failure could result in inaccurate test scores.
+- shall be reliable as failure could result in inaccurate test scores. - Need to specify how reliable (so it can be tested)
 
 2.5.	 Assumptions and Dependencies
 A number of factors that may affect the requirements specified in the SRS include:
@@ -149,6 +149,9 @@ A number of factors that may affect the requirements specified in the SRS includ
 - the browser
 - the printers
 - the scantron
+- the workstations
+- Jenzabar
+- I-Learn
 
 2.6.	 Apportioning of requirements
 -The system will be scalable for use on a mobile devise. 
