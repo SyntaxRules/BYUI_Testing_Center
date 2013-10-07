@@ -138,10 +138,20 @@ System shall not allow pausing a test.
 2.3.	 User Characteristics
 
 2.4.	 Constraints
+- shall connect to the scantron
+- allow for multiple tests to be taken at once
+- shall be reliable as failure could result in inaccurate test scores.
 
 2.5.	 Assumptions and Dependencies
+A number of factors that may affect the requirements specified in the SRS include:
+- the server
+- the operating system
+- the browser
+- the printers
+- the scantron
 
 2.6.	 Apportioning of requirements
+-The system will be scalable for use on a mobile devise. 
 
 3.	Specific Requirements (Devyn: Draft) (Jordan: man in middle)  (Chris: Final Review)
 
