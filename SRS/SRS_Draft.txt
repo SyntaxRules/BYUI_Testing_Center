@@ -152,10 +152,10 @@ System shall not allow pausing a test.
 2.3.	 User Characteristics
 
 2.4.	 Constraints
-- shall connect to the scantron
-- allow for multiple tests to be taken at once
-- shall be reliable as failure could result in inaccurate test scores. - Need to specify how reliable (so it can 
-  be tested)
+The system shall preform at 100% efficiency for storage and delivery of test scores to teachers and students. (I’m not sure what numbers we should use for reliability) 
+The project must be written in a language currently being taught at BYU-I. This will allow for students and faculty to maintain the system.
+The system needs to interface with both I-Learn, Jenzebar, and the Scantron device. I-Learn provides the online testing environment for the current system. The Scantron device reads in and evaluates the score sheets given for most paper tests. Jenzebar is the governing system of the BYU-I campus and is used to retrieve and store student information.
+The system must be available for use through a web interface. This will allow for system access from any location within the IP domain of BYU-I.
 
 2.5.	 Assumptions and Dependencies
 A number of factors that may affect the requirements specified in the SRS include:
