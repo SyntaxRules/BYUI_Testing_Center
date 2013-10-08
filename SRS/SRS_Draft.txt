@@ -56,13 +56,14 @@ Specific Requirements
 2.	Overall description (Devyn: Draft) (Jordan: man in middle) (Chris: Final Review)
 
 2.1.	 Product Perspective
-
+In this section we give an overview of the testing center system. This includes it's interfaces, constraints and assumptions.
 2.1.1.	System interfaces
-+The system shall be able to look up a student (including picture) based on I-Number. The interface here is to the existing school systems.
-    -Helps speed up checkout and verification to avoid cheating.
+  The testing center system will interface with existing school systems. These systems include I-Learn and Jensebar. The system shall interface with I-learn to enable teachers to edit and upload test scores. It shall also allow the students to view their test scores. The teacher will have the option to make scores visible to the student or hide them. The system must interface with jensebar to retrieve existing student data including the student I-number, name, date of birth, class schedule and student picture. This data will be used for various verifications and system loggin as explained in section 3 of this document.
+  The testing Center system must be scalable and allow for future growth. Interfaces for mobile and desktop applications must be provided. This enables the testing center system to add new technology as it is introduced. See section 3.1 for further information.
+
+
 +The system shall provide music in one separate room of testing. (How do they do this currently? A cd player? If so do they want to be able to turn on/off music from the testing center system?) The interface here is to the existing speaker in the wall, if applicable.
 +if deemed appropriate the system shall provide music to the line as well.
-+System shall be scalable (ie desktops to mobile)
 +System shall be maintainable.
     -Written in a modern and popular language with proper documentation.
 
@@ -154,7 +155,7 @@ A number of factors that may affect the requirements specified in the SRS includ
 - I-Learn
 
 2.6.	 Apportioning of requirements
--The system will be scalable for use on a mobile devise. 
+-The system will be scalable for use on a mobile device. 
 
 3.	Specific Requirements (Devyn: Draft) (Jordan: man in middle)  (Chris: Final Review)
 
@@ -169,6 +170,9 @@ A number of factors that may affect the requirements specified in the SRS includ
 +The system shall provide information about the average waiting time before entering the line.
 
 3.2.	 Functions
++The system shall be able to look up a student (including picture) based on I-Number.
+    -Helps speed up checkout and verification to avoid cheating.
+    EX: This provides a form of verification for the testing center staff when a student cannot produce a I-card. This enables the employees to verify that a student is really who they say they are.
 
 3.3.	 Performance requirements
 +The system shall support 500 students taking a test at any given time (either electronic or paper)
@@ -193,6 +197,7 @@ System shall provide a way to create bubble sheet answers
 EXP: Teachers want a bubble sheet software that doesn't have a huge delay and errors
 System shall be able to export grades into I-learn.
 EXP: This used to be a feature, the teacher would like to be able to do it again.
+
 3.5.	 Design constraints
 
 3.5.1.	Standards compliance
