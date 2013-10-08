@@ -169,7 +169,7 @@ A number of factors that may affect the requirements specified in the SRS includ
 - I-Learn
 
 2.6.	 Apportioning of requirements
--The system will be scalable for use on a mobile device. 
+As of now the system runs both paper and online tests. The online testing is run primarily through I-Learn. Eventually the goal of the testing center is to move completely too online testing without interfacing with I-Learn. The system will also need to be scalable for use on a mobile devise.
 
 3.	Specific Requirements (Devyn: Draft) (Jordan: man in middle)  (Chris: Final Review)
 
