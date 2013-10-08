@@ -26,6 +26,7 @@ Christopher Corbaley <br/>
 Nathan Harman (nsharman) <br/>
 Adam Gorbahn (Pyrrus) <br /> 
 David Reeves (dwrXeno5118) <br/>
+James Stakebake (stake5) <br/>
 
 How to contribute to this project:
 ---------------------------------------------
