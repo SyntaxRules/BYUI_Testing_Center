@@ -35,6 +35,7 @@ FERPA – The Family Educational Rights and Privacy Act of 1974.
 I-Number – 
 I-Learn -
 Scantron - 
+Jenzebar - 
 
 1.4.	 References (All)
 FERPA - http://www.byui.edu/student-records/ferpa/family-education-rights-and-privacy-act-%28ferpa%29
@@ -170,15 +171,14 @@ The system needs to interface with both I-Learn, Jenzebar, and the Scantron devi
 The system must be available for use through a web interface. This will allow for system access from any location within the IP domain of BYU-I.
 
 2.5.	 Assumptions and Dependencies
-A number of factors that may affect the requirements specified in the SRS include:
-- the server
-- the operating system
-- the browser
-- the printers
-- the scantron
-- the workstations
-- Jenzabar
-- I-Learn
+The different systems that are assumed to be operational outside of this project are as follows:
+(bullet) PC with Windows OS – The system will be developed to run on a Windows Operating System platform.
+(bullet) Jenzebar – The system will retrieve the student data from the Jenzebar system.
+(bullet) I-Learn – Online tests will be taken through the I-Learn system. Grades will be posted to the I-Learn system as well.
+(bullet) Scantron – The Scantron will deliver its information to the system where it will then be processed and used for test evaluation.
+(bullet) The TV Grade Portal – The screen at the exit of the testing center will be operational to display the results of the students competed tests.
+(bullet) Printers – Printers will be available to print paper tests.
+
 
 2.6.	 Apportioning of requirements
 As of now the system runs both paper and online tests. The online testing is run primarily through I-Learn. Eventually the goal of the testing center is to move completely too online testing without interfacing with I-Learn. The system will also need to be scalable for use on a mobile devise.
