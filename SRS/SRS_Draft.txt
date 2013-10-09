@@ -105,14 +105,12 @@ form. This interface must be scalable allowing for one or more printers or scant
 be able to identify paper tests.
 
 
-+There shall be a device for entering the student’s I-Number at a Testing center Employee’s check-in station/computer.
-+System shall handle multiple testing locations (satalite offices)
-+System shall be scalable (ie desktops to mobile)
-
-+System shall be able to track paper tests
-    -It will take time for all staff to convert to digital tests.
-
 2.1.4.	Software interfaces
+  ATS shall be compatable with client systems running versions of windows. The software shall be written in a 
+  programming language taught at Brigham Young University - Idaho's Computer Science or CIT departments. This enables
+  maintance to be performed by BYU-I's graduates, students, or other perofessionals.
+
+
 +Students shall be able to review scheduled tests and what they are allowed to bring to their test before arriving 
   at the testing center. The interface here is to a web browser.
 +The System shall interact with I-Learn interfaces to upload grades. 
@@ -148,10 +146,15 @@ System shall not allow pausing a test.
 +System shall allow for studnets to specify how test results are delivered
 
 2.1.6.	Memory constraints
+N/A
 
 2.1.7.	Operations
+The system shall have a period of inactivty when the testing center is closed. No tests shall be allowed to 
+be taken durring this time. The user shall be able to set this period. Durring this period of inactivty backup of
+data shall occur.
 
 2.1.8.	Site adaption requirements
+N/A
 
 +The system shall turn off and turn on by times specified by the Testing Center Employee’s
 
@@ -218,7 +221,7 @@ As of now the system runs both paper and online tests. The online testing is run
       This enables the employees to verify that a student is really who they say they are.
 +The system shall provide information about the average waiting time before entering the line using a monitor (TV).
 +System shall be able to show test results as students leave the testing center (TV at testing center exit)
-
++Items to be backed up durring the 'period of inactivity' (specified in 3.6)
 3.3.	 Performance requirements
 +The system shall support 500 students taking a test at any given time (either electronic or paper)
 +The system shall support X number of employee terminals
@@ -249,6 +252,8 @@ EXP: This used to be a feature, the teacher would like to be able to do it again
 3.5.1.	Standards compliance
 
 3.6.	 Software system attributes
++The system shall restrict tests from being taken durring a period of inactivy. This period of inactivty shall be 
+determined by the user. (Typically between closing time of the Testing Center and opening time).
 
 3.6.1.	Reliability
 System shall successfully create a test from a single submission.
