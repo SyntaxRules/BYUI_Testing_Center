@@ -3,7 +3,8 @@
 1.1.	 Purpose (Devyn) (Adam: Review) (Chris: Final Review
 
 1.1.1.	Delineate the purpose of the SRS
-The purpose of the SRS is to set forth a specification for the Testing Center Software.  The old system is antiquated and now needs to be replaced.
+The purpose of the SRS is to set forth a specification for the Testing Center Software.  The old system 
+  is antiquated and now needs to be replaced.
 1.1.2.	Specify the intended audience
 The audience is Kevin Twitchell as the Software Engineering professor as well as the Testing Center Administration.
 1.2.	 Scope (Devyn) (Adam: Review)
@@ -36,6 +37,7 @@ I-Number –
 I-Learn -
 Scantron - 
 Jenzebar - 
+Testing Center or TC - The physical building/location of the center for testing.
 
 1.4.	 References (All)
 FERPA - http://www.byui.edu/student-records/ferpa/family-education-rights-and-privacy-act-%28ferpa%29
@@ -99,12 +101,20 @@ introduced. See section 3.1 for further information.
 +System shall be scalable (ie desktops to mobile)
 
 2.1.3.	Hardware interfaces
-+The system shall provide information about the average waiting time before entering the line using a monitor (TV).
-+There shall be a device for entering the student’s I-Number, connected via USB to a Testing center Employee’s
-  work station/computer.
-+System shall handle multiple testing locations
+ATS will interface with existing TV monitors in the testing center. The existing Testing Center monitors 
+are (1) at the front of the Testing Center by the line and (2) at the Testing Center Exit. 
+ATS will also offer a secure connection with employee computers. Employee computers may be at the Testing Center
+or at a satellite office to the Testing Center. Each employee computer will have a numpad accessable to students 
+who will enter their I-number as part of the check-in process. The ATS shall interface with a printer for printing
+document. ATS shall also interface with the current scantron device that translates paper test's to an electronic 
+form. This interface must be scalable allowing for one or more printers or scantron devices. The ATS harware must
+be able to identify paper tests.
+
+
++There shall be a device for entering the student’s I-Number at a Testing center Employee’s check-in station/computer.
++System shall handle multiple testing locations (satalite offices)
 +System shall be scalable (ie desktops to mobile)
-+System shall be able to show test results as students leave the testing center
+
 +System shall be able to track paper tests
     -It will take time for all staff to convert to digital tests.
 
@@ -165,23 +175,35 @@ System shall not allow pausing a test.
 2.3.	 User Characteristics
 
 2.4.	 Constraints
-The system shall preform at 100% efficiency for storage and delivery of test scores to teachers and students. (I’m not sure what numbers we should use for reliability) 
-The project must be written in a language currently being taught at BYU-I. This will allow for students and faculty to maintain the system.
-The system needs to interface with both I-Learn, Jenzebar, and the Scantron device. I-Learn provides the online testing environment for the current system. The Scantron device reads in and evaluates the score sheets given for most paper tests. Jenzebar is the governing system of the BYU-I campus and is used to retrieve and store student information.
-The system must be available for use through a web interface. This will allow for system access from any location within the IP domain of BYU-I.
+The system shall preform at 100% efficiency for storage and delivery of test scores to teachers and students. 
+  (I’m not sure what numbers we should use for reliability) 
+The project must be written in a language currently being taught at BYU-I. This will allow for students and faculty
+  to maintain the system.
+The system needs to interface with both I-Learn, Jenzebar, and the Scantron device. I-Learn provides the online 
+  testing environment for the current system. The Scantron device reads in and evaluates the score sheets given for 
+  most paper tests. Jenzebar is the governing system of the BYU-I campus and is used to retrieve and store student 
+  information.
+The system must be available for use through a web interface. This will allow for system access from any location 
+  within the IP domain of BYU-I.
 
 2.5.	 Assumptions and Dependencies
 The different systems that are assumed to be operational outside of this project are as follows:
-(bullet) Windows OS - The system will be developed to work with an end system with the Windows Operating System installed.
+(bullet) Windows OS - The system will be developed to work with an end system with the Windows Operating System 
+  installed.
 (bullet) Jenzebar – The system will retrieve the student data from the Jenzebar system.
-(bullet) I-Learn – Online tests will be taken through the I-Learn system. Grades will be posted to the I-Learn system as well.
-(bullet) Scantron – The Scantron will deliver its information to the system where it will then be processed and used for test evaluation.
-(bullet) The TV Grade Portal – The screen at the exit of the testing center will be operational to display the results of the students competed tests.
+(bullet) I-Learn – Online tests will be taken through the I-Learn system. Grades will be posted to the I-Learn 
+  system as well.
+(bullet) Scantron – The Scantron will deliver its information to the system where it will then be processed and 
+  used for test evaluation.
+(bullet) The TV Grade Portal – The screen at the exit of the testing center will be operational to display the 
+  results of the students competed tests.
 (bullet) Printers – Printers will be available to print paper tests.
 
 
 2.6.	 Apportioning of requirements
-As of now the system runs both paper and online tests. The online testing is run primarily through I-Learn. Eventually the goal of the testing center is to move completely too online testing without interfacing with I-Learn. The system will also need to be scalable for use on a mobile devise.
+As of now the system runs both paper and online tests. The online testing is run primarily through I-Learn. 
+  Eventually the goal of the testing center is to move completely too online testing without interfacing with 
+  I-Learn. The system will also need to be scalable for use on a mobile devise.
 
 3.	Specific Requirements (Devyn: Draft) (Jordan: man in middle)  (Chris: Final Review)
 
@@ -200,6 +222,8 @@ As of now the system runs both paper and online tests. The online testing is run
     -Helps speed up checkout and verification to avoid cheating.
     EX: This provides a form of verification for the testing center staff when a student cannot produce a I-card. 
       This enables the employees to verify that a student is really who they say they are.
++The system shall provide information about the average waiting time before entering the line using a monitor (TV).
++System shall be able to show test results as students leave the testing center (TV at testing center exit)
 
 3.3.	 Performance requirements
 +The system shall support 500 students taking a test at any given time (either electronic or paper)
