@@ -172,7 +172,7 @@ The system must be available for use through a web interface. This will allow fo
 
 2.5.	 Assumptions and Dependencies
 The different systems that are assumed to be operational outside of this project are as follows:
-(bullet) PC with Windows OS – The system will be developed to run on a Windows Operating System platform.
+(bullet) Windows OS - The system will be developed to work with an end system with the Windows Operating System installed.
 (bullet) Jenzebar – The system will retrieve the student data from the Jenzebar system.
 (bullet) I-Learn – Online tests will be taken through the I-Learn system. Grades will be posted to the I-Learn system as well.
 (bullet) Scantron – The Scantron will deliver its information to the system where it will then be processed and used for test evaluation.
