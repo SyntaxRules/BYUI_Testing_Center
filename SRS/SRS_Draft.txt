@@ -71,34 +71,28 @@ Specific Requirements
 2.	Overall description (Devyn: Draft) (Jordan: man in middle) (Chris: Final Review)
 
 2.1.	 Product Perspective
-In this section we give an overview of the testing center system. This includes it's interfaces, constraints 
+In this section we give an overview of the Automated Testing System (ATS). This includes it's interfaces, constraints 
   and assumptions.
 2.1.1.	System interfaces
-  The testing center system will interface with existing school systems. These systems include I-Learn and 
+  The testing center system shall interface with existing school systems. These systems include I-Learn and 
 Jensebar. The system shall interface with I-learn to enable teachers to edit and upload test scores. It shall 
-also allow the students to view their test scores. The teacher will have the option to make scores visible to 
-the student or hide them. The system must interface with jensebar to retrieve existing student data including 
-the student I-number, name, date of birth, class schedule and student picture. This data will be used for 
-various verifications and system loggin as explained in section 3 of this document.
-  The testing Center system must be scalable and allow for future growth. Interfaces for mobile and desktop 
-applications must be provided. This enables the testing center system to add new technology as it is 
-introduced. See section 3.1 for further information.
-
-
-+The system shall provide music in one separate room of testing. (How do they do this currently? A cd player? 
-  If so do they want to be able to turn on/off music from the testing center system?) The interface here is 
-  to the existing speaker in the wall, if applicable.
-+if deemed appropriate the system shall provide music to the line as well.
-+System shall be maintainable.
-    -Written in a modern and popular language with proper documentation.
+also allow the students to view their test scores. Within ATS the teacher will have the option to make scores 
+visible to the student or hide them. The system must interface with jensebar to retrieve existing student
+data including the student I-number, name, date of birth, class schedule and student picture.
+This data will be used for various verifications and system loggin as explained in section 3 of this document.
+  ATS must be scalable and allow for future growth. Interfaces for mobile and desktop 
+applications must be provided. This enables ATS to add new technology as it is introduced. 
+See section 3.1 for further information.
+ 
+ATS shall have the ability to provide music to one of the rooms for testing and for the people 
+waiting in line as deemed appropriate.
 
 
 2.1.2.	User interfaces
-+Upon error the User will be informed of the error and a current testing center employee (who is working at a computer).
-+The student taking a test shall not be able to go to any other program on their testing device (electronic).
-+The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
-    -Student staff may only work for a semester with limited to no previous computer skills.
-+System shall be scalable (ie desktops to mobile)
+ATS shall inform the user of any errors within the system. Persons using compters for testing shall only have access
+to their test through ATS. There shall be a user interface for employees to check in  and check out both electronic
+and paper tests. There shall be a user interface for teachers to input tests, schedule test, and make student grades 
+availible to the student interface. There shall be a user interface for students to view test results. 
 
 2.1.3.	Hardware interfaces
 ATS will interface with existing TV monitors in the testing center. The existing Testing Center monitors 
@@ -232,6 +226,7 @@ As of now the system runs both paper and online tests. The online testing is run
 +System shall be scalable (ie desktops to mobile)
 System shall allow for last minute changes.
 EXP: Teachers are dissatisfied with being unable to make last minute changes.
++The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
 
 3.4.	 Logical database requirements
 System shall give immediate access to student test results.
