@@ -197,6 +197,7 @@ As of now the system runs both paper and online tests. The online testing is run
   at the testing center. The interface here is to a web browser.
 +The System shall interact with I-Learn interfaces to upload grades. 
 +The System shall interact with I-Learn interfaces to upload statistics.
+The system shall interact with I-Learn interfaces to add a successfully submitted test to their course.
     -For a teacher to review for knowledge of the test and it's content.
     -Information can be broken down per user.
 +System shall handle multiple testing locations
@@ -209,9 +210,11 @@ As of now the system runs both paper and online tests. The online testing is run
 +The system shall provide information about the average waiting time before entering the line.
 +The system shall provide information about the average waiting time before entering the line. +The user will be 
   able to check this information in the school website.
-System shall allow faculty to submit tests remotely
+System shall allow faculty to submit tests remotely.
+System shall give notification of successful submission of tests.
     -To give teachers the option to change tests after submission.  
     -Less chance for human error with no middle exchange.   
+System shall give one reminder two days prior to test to remind faculty of the test.
 System shall offer metrics for the testing services and teachers
   -What metrics?
 System shall time each test.
@@ -229,8 +232,7 @@ System shall not allow pausing a test.
 +The system shall support X number of employee terminals
 +System shall handle multiple testing locations
 +System shall be scalable (ie desktops to mobile)
-System shall allow for last minute changes to the test.
-The system shall not allow last minute schedule changes.
+System shall allow for last minute changes.
 EXP: Teachers are dissatisfied with being unable to make last minute changes.
 +The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
 
