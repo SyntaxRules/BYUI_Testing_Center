@@ -251,6 +251,8 @@ System shall be able to export grades into I-learn.
 EXP: This used to be a feature, the teacher would like to be able to do it again.
 
 3.5.	 Design constraints
+System shall accept PDF forms of tests
+EXP: For math based tests, they need to submit PDF's or the symbols of the tests will be changed.
 
 3.5.1.	Standards compliance
 
