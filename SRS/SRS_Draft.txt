@@ -31,6 +31,7 @@ ATS will not:
 1.2.3.3.	Goals
 1.3.	 Definitions, Acronyms and Abbreviations (All)
 ATS - Automated Testing Service, the software suite we will develop
+ADA - Disabilies Compliance (explain more)
 SRS - Software Requirements Specification
 FERPA – The Family Educational Rights and Privacy Act of 1974.
 I-Number – 
@@ -107,38 +108,10 @@ be able to identify paper tests.
 
 2.1.4.	Software interfaces
   ATS shall be compatable with client systems running versions of windows. The software shall be written in a 
-  programming language taught at Brigham Young University - Idaho's Computer Science or CIT departments. This enables
-  maintance to be performed by BYU-I's graduates, students, or other perofessionals.
-
-
-+Students shall be able to review scheduled tests and what they are allowed to bring to their test before arriving 
-  at the testing center. The interface here is to a web browser.
-+The System shall interact with I-Learn interfaces to upload grades. 
-+The System shall interact with I-Learn interfaces to upload statistics.
-    -For a teacher to review for knowledge of the test and it's content.
-    -Information can be broken down per user.
-+System shall handle multiple testing locations
-+System shall allow online testing
-+System shall be scalable (ie desktops to mobile)
-+The system shall provide the option to schedule tests.
-    -To streamline process and avoid a crowded testing center.
-    -To avoid conflicts of testing times.
-    -To handle ADA (disabilities) scheduling.
-+The system shall provide information about the average waiting time before entering the line.
-+The system shall provide information about the average waiting time before entering the line. +The user will be 
-  able to check this information in the school website.
-System shall allow faculty to submit tests remotely
-    -To give teachers the option to change tests after submission.  
-    -Less chance for human error with no middle exchange.   
-System shall offer metrics for the testing services and teachers
-System shall time each test.
-EXP: Teacher wants to know how much time is needed for tests
-System shall return time results to the teacher.
-EXP: Teacher wants to know how much time is needed for tests
-System shall not require the downloading of any form.
-EXP: The submission process is bothersome and requires saving tests then emailing them.
-System shall not allow pausing a test.
-    -Not allow a user to "save for later" option of a test.
+programming language taught at Brigham Young University - Idaho's Computer Science or CIT departments. This enables
+maintance to be performed by BYU-I's graduates, students, or other perofessionals.
+  The System shall use a math engine to understand math symbols, to make them prinatable, and allow students to 
+add mathematical symbols to their tests.
 
 2.1.5.	Communication interfaces
 +Any HTML content served shall be compliant with HTTP protical 1.1
@@ -222,6 +195,37 @@ As of now the system runs both paper and online tests. The online testing is run
 +The system shall provide information about the average waiting time before entering the line using a monitor (TV).
 +System shall be able to show test results as students leave the testing center (TV at testing center exit)
 +Items to be backed up durring the 'period of inactivity' (specified in 3.6)
++Students shall be able to review scheduled tests and what they are allowed to bring to their test before arriving 
+  at the testing center. The interface here is to a web browser.
++The System shall interact with I-Learn interfaces to upload grades. 
++The System shall interact with I-Learn interfaces to upload statistics.
+    -For a teacher to review for knowledge of the test and it's content.
+    -Information can be broken down per user.
++System shall handle multiple testing locations
++System shall allow online testing
++System shall be scalable (ie desktops to mobile and becasue of considerable growth)
++The system shall provide the option to schedule tests.
+    -To streamline process and avoid a crowded testing center.
+    -To avoid conflicts of testing times.
+    -To handle ADA (disabilities) scheduling.
++The system shall provide information about the average waiting time before entering the line.
++The system shall provide information about the average waiting time before entering the line. +The user will be 
+  able to check this information in the school website.
+System shall allow faculty to submit tests remotely
+    -To give teachers the option to change tests after submission.  
+    -Less chance for human error with no middle exchange.   
+System shall offer metrics for the testing services and teachers
+  -What metrics?
+System shall time each test.
+EXP: Teacher wants to know how much time is needed for tests
+System shall return time results to the teacher.
+EXP: Teacher wants to know how much time is needed for tests
+System shall not require the downloading of any form.
+EXP: The submission process is bothersome and requires saving tests then emailing them. The current testing center 
+  System does this and the teachers have explicitly requested that it not be this way.
+System shall not allow pausing a test.
+    -Not allow a user to "save for later" option of a test.
+    
 3.3.	 Performance requirements
 +The system shall support 500 students taking a test at any given time (either electronic or paper)
 +The system shall support X number of employee terminals
@@ -230,6 +234,7 @@ As of now the system runs both paper and online tests. The online testing is run
 System shall allow for last minute changes.
 EXP: Teachers are dissatisfied with being unable to make last minute changes.
 +The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
+
 
 3.4.	 Logical database requirements
 System shall give immediate access to student test results.
