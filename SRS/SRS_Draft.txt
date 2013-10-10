@@ -1,6 +1,6 @@
 1.	Introduction
 
-1.1.	 Purpose (Devyn) (Adam: Review) (Chris: Final Review
+1.1.	 Purpose (Devyn) (Adam: Review) (Chris: Final Review)
 
 1.1.1.	Delineate the purpose of the SRS
 The purpose of the SRS is to set forth a specification for the Testing Center Software.  The old system 
@@ -69,7 +69,7 @@ Specific Requirements
   Functions
   Performance requirements
 
-2.	Overall description (Devyn: Draft) (Jordan: man in middle) (Chris: Final Review)
+2.	Overall description
 
 2.1.	 Product Perspective
 In this section we give an overview of the Automated Testing System (ATS). This includes it's interfaces, constraints 
@@ -114,9 +114,8 @@ maintance to be performed by BYU-I's graduates, students, or other perofessional
 add mathematical symbols to their tests.
 
 2.1.5.	Communication interfaces
-+Any HTML content served shall be compliant with HTTP protical 1.1
-+System shall allow online testing
-+System shall allow for studnets to specify how test results are delivered
+  HTML Content served shall be conpliant with Firefox, Chrome and IE 9+ per University standards. (TODO: Confirm these 
+are actual standards).
 
 2.1.6.	Memory constraints
 N/A
@@ -127,9 +126,8 @@ be taken durring this time. The user shall be able to set this period. Durring t
 data shall occur.
 
 2.1.8.	Site adaption requirements
-N/A
-
-+The system shall turn off and turn on by times specified by the Testing Center Employee’s
+  In the case of the instillation of a satalite testing center, all test results, logging, actions and problems
+must be reported and logged in the main testing center system located in the testing center.
 
 2.2.	 Product Functions
 +electronic tests (including serving of computers)
@@ -257,6 +255,7 @@ EXP: This used to be a feature, the teacher would like to be able to do it again
 3.5.1.	Standards compliance
 
 3.6.	 Software system attributes
++The system shall be reset at least once a week.
 +The system shall restrict tests from being taken durring a period of inactivy. This period of inactivty shall be 
 determined by the user. (Typically between closing time of the Testing Center and opening time).
 
@@ -268,6 +267,7 @@ EXP: They use the services extensively and are satisfied with the time it takes 
 System shall not hinder the proctoring of exams
 EXP: Some faculty members doesn’t use the services because they like to control the testing in their class. Also 
   because the environment doesn’t allow them to accomplish their “educational goals”.
+
 3.6.2.	Availability
 System shall allow for last minute changes.
 System shall immediately return possible dates to the user if the desired date is unavailable.
@@ -284,6 +284,7 @@ EXP: Some teachers don't use the testing center specifically because of scheduli
   and finals.
 System shall allow students to take exams only during their scheduled time
 EXP: Students have been given wrong exam at wrong times
+
 3.6.3.	Security
 System shall allow for remote proctoring.
    -All student information will be displayed on remote screen for proctor.
@@ -298,6 +299,7 @@ EXP: Teachers have had some issues with test previously including, students give
 System shall only allow one test per student at a time.
 EXP: Teachers would like to effectively track how long it takes a student to take a test, if a student takes more 
   than one test at a time, it is hard to gauge how long the test actually takes.
+
 3.6.4.	Maintainability
 The system shall be programmed in a language taught at BYU-Idaho.
   EXP: The last system was programmed in PIC Basic and it was extremly hard to maintain. The reasons it was 
@@ -308,6 +310,7 @@ The system shall be programmed in a language taught at BYU-Idaho.
 3.6.5.	Portability
 System shall allow to have temporary Testing Center areas to be set up in labs.
       -During final times to convert labs into computer testing areas.
+
 3.7.	 Organizing the specific requirements
 
 3.7.1.	System mode
