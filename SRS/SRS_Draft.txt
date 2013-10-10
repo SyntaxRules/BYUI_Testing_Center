@@ -229,7 +229,8 @@ System shall not allow pausing a test.
 +The system shall support X number of employee terminals
 +System shall handle multiple testing locations
 +System shall be scalable (ie desktops to mobile)
-System shall allow for last minute changes.
+System shall allow for last minute changes to the test.
+The system shall not allow last minute schedule changes.
 EXP: Teachers are dissatisfied with being unable to make last minute changes.
 +The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
 
