@@ -156,12 +156,19 @@ As of now the system runs both paper and online tests. The online testing is run
 +The system shall provide information about the average waiting time before entering the line.
 
 3.2.	 Functions
-+The system shall be able to look up a student (including picture) based on I-Number.
-    -Helps speed up checkout and verification to avoid cheating.
-    EX: This provides a form of verification for the testing center staff when a student cannot produce a I-card. 
-      This enables the employees to verify that a student is really who they say they are.
-+The system shall provide information about the average waiting time before entering the line using a monitor (TV).
-+System shall be able to show test results as students leave the testing center (TV at testing center exit)
+ATS3.2.001
+  REQ:The system shall be able to look up a student (including picture) based on I-Number.
+  EX:This provides a form of verification for the testing center staff when a student cannot produce a I-card. 
+     This enables the employees to verify that a student is really who they say they are.
+ATS3.2.002
+  REQ:The system shall provide information about the average waiting time before entering the line using 
+  the existing hardware (TV/Monitor).
+  EX:This will enable students coming to the Testing Center to know how long the wait will be.
+ATS3.2.003
+  REQ:System shall be able to show test results as students leave the testing center using the existing
+  hardware (TV at testing center exit).
+  EX:This will enable students taking auto-graded test to receive immediate test results.
+  
 +Items to be backed up durring the 'period of inactivity' (specified in 3.6)
 +Students shall be able to review scheduled tests and what they are allowed to bring to their test before arriving 
   at the testing center. The interface here is to a web browser.
