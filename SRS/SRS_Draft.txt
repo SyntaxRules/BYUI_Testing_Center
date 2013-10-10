@@ -264,7 +264,7 @@ determined by the user. (Typically between closing time of the Testing Center an
 3.6.1.	Reliability
 System shall successfully create a test from a single submission.
 EXP: Teachers are dissatisfied with amount of times tests needed to be submitted
-System shall let any user create a test in less than 30 minutes.
+System shall let any user submit a test in less than 30 minutes.
 EXP: They use the services extensively and are satisfied with the time it takes (15 mins or less)
 System shall not hinder the proctoring of exams
 EXP: Some faculty members doesn’t use the services because they like to control the testing in their class. Also 
