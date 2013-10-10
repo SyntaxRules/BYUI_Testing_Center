@@ -250,6 +250,20 @@ System shall provide a way to create bubble sheet answers
 EXP: Teachers want a bubble sheet software that doesn't have a huge delay and errors
 System shall be able to export grades into I-learn.
 EXP: This used to be a feature, the teacher would like to be able to do it again.
+System shall allow teachers to re-use old test with and edit the tests.
+EXP: Teachers want to be able to use old tests, but change wording of questions
+System shall show available dates for testing.
+EXP: This will allow the teachers to know what dates are already open.
+Teacher shall select test dates when submitting tests.
+EXP: Teachers are in charge of selecting their own dates
+Teachers shall only submit bubble, write on, or computerized tests.
+EXP: We don't want anything outside of these tests
+System shall provide test submission and test date selection in the same process.
+EXP: We want a single system that will allow the submission process to be simplified
+Teachers shall be able to create tests in system.
+EXP: Teachers will be able to create write on tests in system
+System shall provide test creation services.
+EXP: Simplify the test creation and submission process
 
 3.5.	 Design constraints
 System shall accept PDF forms of tests
@@ -270,6 +284,8 @@ EXP: They use the services extensively and are satisfied with the time it takes 
 System shall not hinder the proctoring of exams
 EXP: Some faculty members doesn’t use the services because they like to control the testing in their class. Also 
   because the environment doesn’t allow them to accomplish their “educational goals”.
+System shall provide error checking for required fields in test information form.
+EXP: Teachers sometimes miss things, and don't want to run through the whole form to see what box they missed. We need to be able to show them what parts they missed when submitting a test
 
 3.6.2.	Availability
 System shall allow for last minute changes.
