@@ -24,11 +24,11 @@ ATS will not:
 -Grade write on (electronic or handwritten) short answer questions.
 1.2.3.	Application of the software
 
-1.2.3.1.	Relevant benefits
+1.2.3.1.	Relevant benefits, Objectives, and Goals 
+The current software is antiquated and fractured.  It is not sufficent to provide the flexibility and 
+mantainability required.  ATS will allow for scaling to larger distribution of testing services.  ATS will 
+simplify the entry process and improve the faculty experience when entering tests.
 
-1.2.3.2.	Objectives
-
-1.2.3.3.	Goals
 1.3.	 Definitions, Acronyms and Abbreviations (All)
 ATS - Automated Testing Service, the software suite we will develop
 ADA - Disabilies Compliance (explain more)
