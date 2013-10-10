@@ -24,11 +24,11 @@ ATS will not:
 -Grade write on (electronic or handwritten) short answer questions.
 1.2.3.	Application of the software
 
-1.2.3.1.	Relevant benefits, Objectives, and Goals 
-The current software is antiquated and fractured.  It is not sufficent to provide the flexibility and 
-mantainability required.  ATS will allow for scaling to larger distribution of testing services.  ATS will 
-simplify the entry process and improve the faculty experience when entering tests.
+1.2.3.1.	Relevant benefits
 
+1.2.3.2.	Objectives
+
+1.2.3.3.	Goals
 1.3.	 Definitions, Acronyms and Abbreviations (All)
 ATS - Automated Testing Service, the software suite we will develop
 ADA - Disabilies Compliance (explain more)
@@ -37,7 +37,8 @@ FERPA – The Family Educational Rights and Privacy Act of 1974.
 I-Number – 
 I-Learn -
 Scantron - 
-Jenzebar - 
+Jenzabar - 
+BYU-I - Brigham Young University - Idaho
 Testing Center or TC - The physical building/location of the center for testing.
 
 1.4.	 References (All)
@@ -72,58 +73,29 @@ Specific Requirements
 2.	Overall description
 
 2.1.	 Product Perspective
-In this section we give an overview of the Automated Testing System (ATS). This includes it's interfaces, constraints 
-  and assumptions.
-2.1.1.	System interfaces
-  The testing center system shall interface with existing school systems. These systems include I-Learn and 
-Jensebar. The system shall interface with I-learn to enable teachers to edit and upload test scores. It shall 
-also allow the students to view their test scores. Within ATS the teacher will have the option to make scores 
-visible to the student or hide them. The system must interface with jensebar to retrieve existing student
-data including the student I-number, name, date of birth, class schedule and student picture.
-This data will be used for various verifications and system loggin as explained in section 3 of this document.
-  ATS must be scalable and allow for future growth. Interfaces for mobile and desktop 
-applications must be provided. This enables ATS to add new technology as it is introduced. 
-See section 3.1 for further information.
- 
-ATS shall have the ability to provide music to one of the rooms for testing and for the people 
-waiting in line as deemed appropriate.
+In this section we give an overview of the Automated Testing System (ATS). This includes its interfaces, constraints, and assumptions.
 
+2.1.1.	System interfaces
+The testing center system shall interface with existing school systems. These systems include I-Learn and Jenzabar. The system shall interface with I-Learn to enable teachers to edit and upload test scores. It shall also allow the students to view their test scores. Within ATS the teacher will have the option to make scores visible to the student or hide them. The system must interface with Jenzabar to retrieve existing student data, including the student I-Number, name, date of birth, class schedule, and student picture. This data will be used for various verifications and system logins as explained in Section 3 of this document. ATS must be scalable and allow for future growth. Interfaces for mobile and desktop applications must be provided. This enables ATS to add new technology as it is introduced. See Section 3.1 for further information. ATS shall have the ability to provide music to one of the rooms for testing and for the people waiting in line as deemed appropriate.
 
 2.1.2.	User interfaces
-ATS shall inform the user of any errors within the system. Persons using compters for testing shall only have access
-to their test through ATS. There shall be a user interface for employees to check in  and check out both electronic
-and paper tests. There shall be a user interface for teachers to input tests, schedule test, and make student grades 
-availible to the student interface. There shall be a user interface for students to view test results. 
+ATS shall inform the user of any errors within the system. Persons using computers for testing shall only have access to their test through ATS. There shall be a user interface for employees to check-in and check-out both electronic and paper tests. There shall be a user interface for teachers to input tests, schedule tests, and make student grades available to the student interface. There shall be a user interface for students to view their own test results. 
 
 2.1.3.	Hardware interfaces
-ATS will interface with existing TV monitors in the testing center. The existing Testing Center monitors 
-are (1) at the front of the Testing Center by the line and (2) at the Testing Center Exit. 
-ATS will also offer a secure connection with employee computers. Employee computers may be at the Testing Center
-or at a satellite office to the Testing Center. Each employee computer will have a numpad accessable to students 
-who will enter their I-number as part of the check-in process. The ATS shall interface with a printer for printing
-document. ATS shall also interface with the current scantron device that translates paper test's to an electronic 
-form. This interface must be scalable allowing for one or more printers or scantron devices. The ATS harware must
-be able to identify paper tests.
-
+ATS will interface with existing display monitors in the testing center. The existing Testing Center monitors are at the front of the Testing Center in the entry way and at the Testing Center exit. ATS will also offer a secure connection with employee computers, which may be at the Testing Center or at a satellite office to the Testing Center. Each employee computer in the check-in area will have a number pad accessible to students, who will enter their I-Number as part of the check-in process. ATS shall interface with a printer for printing documents. ATS shall also interface with the current Scantron device that translates paper tests to an electronic form. This interface must be scalable, allowing for one or more printers or Scantron devices. ATS must be able to identify paper tests.
 
 2.1.4.	Software interfaces
-  ATS shall be compatable with client systems running versions of windows. The software shall be written in a 
-programming language taught at Brigham Young University - Idaho's Computer Science or CIT departments. This enables
-maintance to be performed by BYU-I's graduates, students, or other perofessionals.
-  The System shall use a math engine to understand math symbols, to make them prinatable, and allow students to 
-add mathematical symbols to their tests.
+ATS shall be compatible with client systems running versions of Windows. The software shall be written in a programming language taught at BYU-I's Computer Science or CIT departments. This enables maintenance to be performed by BYU-I's graduates, students, or other professionals. ATS shall use a math engine to understand math symbols, make them printable, and allow students to add them to their tests.
 
 2.1.5.	Communication interfaces
-  HTML Content served shall be conpliant with Firefox, Chrome and IE 9+ per University standards. (TODO: Confirm these 
-are actual standards).
+HTML Content served shall be compliant with Firefox, Chrome, and IE 9+ per University standards. (TODO: Confirm these are actual standards).
 
 2.1.6.	Memory constraints
 N/A
 
 2.1.7.	Operations
-The system shall have a period of inactivty when the testing center is closed. No tests shall be allowed to 
-be taken durring this time. The user shall be able to set this period. Durring this period of inactivty backup of
-data shall occur.
+The system shall have a period of inactivity when the testing center is closed, for scheduled maintenance and backups. No tests shall be allowed to be taken during this time. The Testing Center shall be able to set this period.
+
 
 2.1.8.	Site adaption requirements
   In the case of the instillation of a satalite testing center, all test results, logging, actions and problems
@@ -229,8 +201,7 @@ System shall not allow pausing a test.
 +The system shall support X number of employee terminals
 +System shall handle multiple testing locations
 +System shall be scalable (ie desktops to mobile)
-System shall allow for last minute changes to the test.
-The system shall not allow last minute schedule changes.
+System shall allow for last minute changes.
 EXP: Teachers are dissatisfied with being unable to make last minute changes.
 +The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
 
@@ -252,8 +223,6 @@ System shall be able to export grades into I-learn.
 EXP: This used to be a feature, the teacher would like to be able to do it again.
 
 3.5.	 Design constraints
-System shall accept PDF forms of tests
-EXP: For math based tests, they need to submit PDF's or the symbols of the tests will be changed.
 
 3.5.1.	Standards compliance
 
@@ -265,7 +234,7 @@ determined by the user. (Typically between closing time of the Testing Center an
 3.6.1.	Reliability
 System shall successfully create a test from a single submission.
 EXP: Teachers are dissatisfied with amount of times tests needed to be submitted
-System shall let any user submit a test in less than 30 minutes.
+System shall let any user create a test in less than 30 minutes.
 EXP: They use the services extensively and are satisfied with the time it takes (15 mins or less)
 System shall not hinder the proctoring of exams
 EXP: Some faculty members doesn’t use the services because they like to control the testing in their class. Also 
