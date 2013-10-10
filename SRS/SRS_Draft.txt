@@ -168,11 +168,18 @@ ATS3.2.003
   REQ:System shall be able to show test results as students leave the testing center using the existing
   hardware (TV at testing center exit).
   EX:This will enable students taking auto-graded test to receive immediate test results.
-  
+ATS3.2.004
+  REQ:Students shall be able to review what they are allowed to bring to their test before arriving 
+  at the testing center. 
+  EX: After the student logs into ATS in a web browser, they will be able to see scheduled tests and review 
+  what they are allowed to bring to the test with them (calculator, note card, dictionary, etc).
+ATS3.2.005
+  REQ:The System shall interact with I-Learn interfaces to upload grades. 
+  EX:Once grades have been entered, ATS will interface with I-Learn so that the teacher and students can see 
+  grades within I-Learn.
+
+
 +Items to be backed up durring the 'period of inactivity' (specified in 3.6)
-+Students shall be able to review scheduled tests and what they are allowed to bring to their test before arriving 
-  at the testing center. The interface here is to a web browser.
-+The System shall interact with I-Learn interfaces to upload grades. 
 +The System shall interact with I-Learn interfaces to upload statistics.
     -For a teacher to review for knowledge of the test and it's content.
     -Information can be broken down per user.
