@@ -270,7 +270,10 @@ EXP: Some faculty members doesn’t use the services because they like to contro
   because the environment doesn’t allow them to accomplish their “educational goals”.
 System shall provide error checking for required fields in test information form.
 EXP: Teachers sometimes miss things, and don't want to run through the whole form to see what box they missed. We need to be able to show them what parts they missed when submitting a test
-
+System shall notify via e-mail of successful test submission to Teachers
+EXP: This will allow the testing center and teachers to know that it has been submited.
+System shall notify via e-mail of successful Testing Center reservation to Teachers
+EXP: This will allow the testing center and teachers to know that it has been reserved.
 3.6.2.	Availability
 System shall allow for last minute changes.
 System shall immediately return possible dates to the user if the desired date is unavailable.
