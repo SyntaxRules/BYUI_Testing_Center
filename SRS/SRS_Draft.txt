@@ -3,8 +3,7 @@
 1.1.	 Purpose (Devyn) (Adam: Review) (Chris: Final Review)
 
 1.1.1.	Delineate the purpose of the SRS
-The purpose of the SRS is to set forth a specification for the Testing Center Software.  The old system 
-  is antiquated and now needs to be replaced.
+The purpose of the SRS is to set forth a specification for the Testing Center Software.  The old system is antiquated and now needs to be replaced.
 1.1.2.	Specify the intended audience
 The audience is Kevin Twitchell as the Software Engineering professor as well as the Testing Center Administration.
 1.2.	 Scope (Devyn) (Adam: Review)
@@ -25,37 +24,32 @@ ATS will not:
 1.2.3.	Application of the software
 
 1.2.3.1.	Relevant benefits, Objectives, and Goals 
-The current software is antiquated and fractured.  It is not sufficent to provide the flexibility and 
-mantainability required.  ATS will allow for scaling to larger distribution of testing services.  ATS will 
-simplify the entry process and improve the faculty experience when entering tests.
+The current software is antiquated and fractured.  It is not sufficient to provide the flexibility and 
+maintainability required.  ATS will allow for scaling to larger distribution of testing services.  ATS will simplify the entry process and improve the faculty experience when entering tests.
 
 1.3.	 Definitions, Acronyms and Abbreviations (All)
 ATS - Automated Testing Service, the software suite we will develop
-ADA - Disabilies Compliance (explain more)
+ADA - Disabilities Compliance (explain more)
 SRS - Software Requirements Specification
 FERPA – The Family Educational Rights and Privacy Act of 1974.
-I-Number – 
-I-Learn -
-Scantron - 
-Jenzabar - 
-BYU-I - Brigham Young Univesity - Idaho
+I-Number – A unique nine digit identification number for students
+I-Learn - A web based learning management system for teachers and students
+Scantron - A device able to grade bubble tests
+Jenzabar - BYU-Idaho’s main database for student’s private information, I-Learn information, and class information.
+BYU-I - Brigham Young University - Idaho
 Testing Center or TC - The physical building/location of the center for testing.
 
 1.4.	 References (All)
 FERPA - http://www.byui.edu/student-records/ferpa/family-education-rights-and-privacy-act-%28ferpa%29
 Testing Center - http://www.byui.edu/testing-services
-I-Learn API - ?
+I-Learn API - Also known as Agilix - http://gls.agilix.com/js/docs/#!/concept/overview
 Jenzabar API - http://www.franciscan.edu/imagebase/oit/docid1510/Web%20Administration%20Configuration%20Guide.pdf
 
 1.5.	 Overview (Adam)
-This document gives an overview of the functionality of the Testing Center Software. 
-It describes the requirements needed for the development process. 
+This document gives an overview of the functionality of ATS. It describes the requirements needed for the development process. 
 
 1.5.1.	What the rest of the SRS contains?
-The next chapter, Overall Description section, gives an overview of the product.
-Which establishes a context for the technical requirements which are noted in section 3, Requirement Specifications.
-Section 3, Requirements Specifications, is written to explain the details of the functionality of this product.
-Both sections are written to describe the Testing Center Software in its entirety.
+The next chapter, Overall Description section, gives an overview of the product. Which establishes a context for the technical requirements which are noted in section 3, Requirement Specifications. Section 3, Requirements Specifications, is written to explain the details of the functionality of this product. Both sections are written to describe the Testing Center Software in its entirety.
 
 1.5.2.	How the SRS is organized?
 This document is organized by explaining the overall description of the software, 
@@ -69,7 +63,8 @@ Specific Requirements
   External interfaces
   Functions
   Performance requirements
-
+  
+  
 2.	Overall description
 
 2.1.	 Product Perspective
