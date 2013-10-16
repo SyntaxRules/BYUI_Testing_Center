@@ -204,21 +204,6 @@ ATS 3.2.017
   REQ: System shall not allow pausing a test.
   EX: Not allow a user to "save for later" option of an online test.
   
-For DEVYN  
-+Items to be backed up durring the 'period of inactivity' (specified in 3.6)
-    
-3.3.	 Performance requirements
-+The system shall support 500 students taking a test at any given time (either electronic or paper)
-+The system shall support X number of employee terminals
-+System shall handle multiple testing locations
-+System shall be scalable (ie desktops to mobile)
-System shall allow for last minute changes to the test.
-The system shall not allow last minute schedule changes.
-EXP: Teachers are dissatisfied with being unable to make last minute changes.
-+The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
-
-
-3.4.	 Logical database requirements
 System shall give immediate access to student test results.
 EXP: The teacher wants a quicker turn-around time
 System shall display which tests have already been scheduled.
@@ -247,6 +232,51 @@ Teachers shall be able to create tests in system.
 EXP: Teachers will be able to create write on tests in system
 System shall provide test creation services.
 EXP: Simplify the test creation and submission process
+
+For DEVYN  
++Items to be backed up durring the 'period of inactivity' (specified in 3.6)
+    
+3.3.	 Performance requirements
++The system shall support 500 students taking a test at any given time (either electronic or paper)
++The system shall support X number of employee terminals
++System shall handle multiple testing locations
++System shall be scalable (ie desktops to mobile)
+System shall allow for last minute changes to the test.
+The system shall not allow last minute schedule changes.
+EXP: Teachers are dissatisfied with being unable to make last minute changes.
++The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
+
+3.4.	 Logical database requirements
+ATS 3.4.001
+  REQ: The ATS database will perform cleanup after every year, removing already administered test dates, scores, and testing logs. 
+  EX: After the test has been taken and a student given a grade for their class there is no reason to keep this information. To avoid clutter that could slow down the system, we require this cleanup process yearly. This process will not remove metrics or tests that have not had complied metris (see ATS 3.4.005 and ATS 3.4.006)
+ATS 3.4.002
+  REQ: The ATS database shall distinguish between paper tests and electronic tests.
+  EX: For statistical purposes, the testing center would wish to know if the tests being taken were delivered electronicly or by paper.
+ATS 3.4.003
+  REQ: The ATS database shall store scores in a precentage fashion, 0% being the lowerst and 100% being the highest.
+  EX: This uniformity allows the testing center to avoid ambiguity on what a good or bad score is. Test scores may need to be transformed after submission in order to meet this requirement.
+ATS 3.4.004
+  REQ: The test taken, tests scores, time the test was taken, and length of the test shall be accessable to internal systems for metrics.
+  EX: The testing center employees requested that these items be avaliable for metrics. These metrics would be avaliable to a select few testing center employees and teachers.
+ATS 3.4.005
+  REQ: Metirs stored in the ATS database shall never be deleted.
+  EX: Metrics must be kept for the life of the system so that they can be recalled.
+ATS 3.4.006
+  REQ: Test information may not be deleted from the ATs database until metrics are complied.
+  EX: This requirement attempts to avoid any bais by ensuring that no test is skipped over.
+ATS 3.4.007
+  REQ: Database information shall be written in English
+  EX: Is is the university standard that the spoken language is english. For maintanability purposes, the database must also be written in English.
+ATS 3.4.008
+  REQ: The ATS database will only reveal test scores through the ATS system in FERPA compliant manners.
+  EX: To avoid potential problems with FERPA the system should not disclose it scores in any manner that is not secured through the already FERPA compliant ATS system. This ensures that the database will never be the problem if FERPA confidenciality is breached.
+ATS 3.4.009
+  REQ: The ATS database will only be accessable by ATS and developers of ATS.
+  EX: Any other application must go through ATS. This ensures that the database will not breach any school or federal education standards.
+ATS 3.4.010
+  REQ: The ATS datatabe shall provide a history of actions taken by ATS.
+  EX: Logging of when the test is taken, how the test is taken, when the test is checked out, when the test is checked back in, how long the test took, and the score are all important in resolving potential disputes or accounts of cheating. For this reason all actions shall be logged and stored in the secure database.
 
 3.5.	 Design constraints
 System shall accept PDF forms of tests
