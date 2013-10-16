@@ -232,9 +232,27 @@ Teachers shall be able to create tests in system.
 EXP: Teachers will be able to create write on tests in system
 System shall provide test creation services.
 EXP: Simplify the test creation and submission process
-
-For DEVYN  
-+Items to be backed up durring the 'period of inactivity' (specified in 3.6)
+System shall not hinder the proctoring of exams
+EXP: Some faculty members doesn’t use the services because they like to control the testing in their class. Also 
+  because the environment doesn’t allow them to accomplish their “educational goals”.
+System shall provide error checking for required fields during test creation.
+EXP: Teachers sometimes miss things, and don't want to run through the whole form to see what box they missed. We need to be able to show them what parts they missed when submitting a test
+System shall notify via e-mail of successful test submission to Teachers
+EXP: This will allow the testing center and teachers to know that it has been submited.
+System shall notify via e-mail of successful Testing Center reservation to Teachers
+EXP: This will allow the testing center and teachers to know that it has been reserved.
+System shall return possible dates to the user if the desired date is unavailable.
+EXP:  Teachers suggested a web app to submit tests and schedule them, due to the back and forth to schedule tests
+System shall only allow one test per student at a time.
+EXP: Teachers would like to effectively track how long it takes a student to take a test, if a student takes more 
+  than one test at a time, it is hard to gauge how long the test actually takes.
+System shall schedule on a first come first serve basis.
+EXP: They would like unlimited space so they can schedule a test whenever they want.
+System shall offer reservation services for testing.
+EXP: Some teachers don't use the testing center specifically because of scheduling issues during the semester 
+  and finals.
+Scores, test dates and tests shall be backed up outside of bussiness hours.
+EXP: For auditing purposes these things need to be kept backed up. See also ATS 3.4.010
     
 3.3.	 Performance requirements
 +The system shall support 500 students taking a test at any given time (either electronic or paper)
@@ -285,66 +303,56 @@ EXP: For math based tests, they need to submit PDF's or the symbols of the tests
 3.5.1.	Standards compliance
 
 3.6.	 Software system attributes
-+The system shall be reset at least once a week.
-+The system shall restrict tests from being taken durring a period of inactivy. This period of inactivty shall be 
-determined by the user. (Typically between closing time of the Testing Center and opening time).
+ATS 3.6.001
+  REQ: The system shall be reset at least once a week.
+  EX:
 
 3.6.1.	Reliability
-System shall successfully create a test from a single submission.
-EXP: Teachers are dissatisfied with amount of times tests needed to be submitted
-System shall let any user submit a test in less than 30 minutes.
-EXP: They use the services extensively and are satisfied with the time it takes (15 mins or less)
-System shall not hinder the proctoring of exams
-EXP: Some faculty members doesn’t use the services because they like to control the testing in their class. Also 
-  because the environment doesn’t allow them to accomplish their “educational goals”.
-System shall provide error checking for required fields in test information form.
-EXP: Teachers sometimes miss things, and don't want to run through the whole form to see what box they missed. We need to be able to show them what parts they missed when submitting a test
-System shall notify via e-mail of successful test submission to Teachers
-EXP: This will allow the testing center and teachers to know that it has been submited.
-System shall notify via e-mail of successful Testing Center reservation to Teachers
-EXP: This will allow the testing center and teachers to know that it has been reserved.
+ATS 3.6.00?
+  REQ: All test score submissions must recieve a confirmation from ATS of the result of the action.
+  EX:
+
 3.6.2.	Availability
-System shall allow for last minute changes.
-System shall immediately return possible dates to the user if the desired date is unavailable.
-EXP:  Teachers suggested a web app to submit tests and schedule them, due to the back and forth to schedule tests
-System shall not hinder the proctoring of exams
-EXP: Some faculty members doesn’t use the services because they like to control the testing in their class. Also 
-  because the environment doesn’t allow them to accomplish their “educational goals”.
-System shall only allow one test per student at a time.
-EXP: Teacher wants to know how much time is needed for tests
-System shall schedule on a first come first serve basis.
-EXP: They would like unlimited space so they can schedule a test whenever they want.
-System shall offer reservation services for testing.
-EXP: Some teachers don't use the testing center specifically because of scheduling issues during the semester 
-  and finals.
-System shall allow students to take exams only during their scheduled time
-EXP: Students have been given wrong exam at wrong times
+ATS 3.6.00?
+  REQ: ATS shall be inaccesable for testing services outside of business hours (this excludes the viewing of submitted scores).
+  EX:
+ATS 3.6.00?
+  REQ: Schedualed ATS exams will only be allowed burring their scheduled time
+  EX: ADA compiance.
+ATS 3.6.00?
+  REQ: System shall allow teachers to change test content up to the time the test opens
+  EX:
+ATS 3.6.00?
+  REQ: ATS shall allow teachers to change test dates up to the day the test is schedualed to open.
+  EX:
 
 3.6.3.	Security
-System shall allow for remote proctoring.
-   -All student information will be displayed on remote screen for proctor.
-System shall notify staff of attempts of cheating.
-    -Attempts to open unnecessary programs or features.
-System shall allow for designated, non-faculty, persons to review assessments.
-EXP: Some teachers doesn’t use the services very frequently because they mostly do writing tests that they like 
-  to look over or have their TA do it
-System shall allow students to take exams only for classes currently registered for.
-EXP: Teachers have had some issues with test previously including, students given wrong exam, used wrong key to 
+ATS 3.6.00?
+  REQ: System shall allow for remote proctoring. All student information will be displayed on remote screen for proctor.
+  EX: 
+ATS 3.6.00?
+  REQ: System shall notify staff of detected attempts of cheating. -Attempts to open unnecessary programs or features.
+  EX:  
+ATS 3.6.00?
+  REQ: System shall allow for designated, non-faculty, persons to review assessments.
+  EXP: Some teachers doesn’t use the services very frequently because they mostly do writing tests that they like to look over or have their TA do it
+ATS 3.6.00?
+  REQ: System shall allow students to take exams only for classes currently registered for.
+  EXP: Teachers have had some issues with test previously including, students given wrong exam, used wrong key to 
   grade, or proctors having hard time following instructions
-System shall only allow one test per student at a time.
-EXP: Teachers would like to effectively track how long it takes a student to take a test, if a student takes more 
-  than one test at a time, it is hard to gauge how long the test actually takes.
 
 3.6.4.	Maintainability
-The system shall be programmed in a language taught at BYU-Idaho.
+ATS 3.6.00?
+  REQ: The system shall be programmed in a language taught at BYU-Idaho.
   EXP: The last system was programmed in PIC Basic and it was extremly hard to maintain. The reasons it was 
   hard to maintain was the fact that not very many people know PIC Basic. For this reason, we need the system to 
   built in a language that is understood by the students/faculty of BYU-Idaho. When the language is understood by these 
   individuals it can be more easily maintained, in the future.
 
 3.6.5.	Portability
-System shall allow to have temporary Testing Center areas to be set up in labs.
-      -During final times to convert labs into computer testing areas.
+ATS 3.6.00?
+  REQ: ATS shall allow satelite centers to be setup and used to house additional computers in time of need.
+  EX: The Testing Center is not very busy except for a few certain times. One of which is final times. Past semesters have proven that computer tests are in high demand during finals times and some students have had to wait a significant time to take their test. Allowing additional satelite centers would be a form of congestion control for these high occupancy times.
 
 3.7.	 Organizing the specific requirements
 
