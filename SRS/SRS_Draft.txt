@@ -138,57 +138,74 @@ The system will be scalable for use on a mobile device. Currently, the system ru
 +The system shall provide information about the average waiting time before entering the line.
 
 3.2.	 Functions
-ATS3.2.001
-  REQ:The system shall be able to look up a student (including picture) based on I-Number.
-  EX:This provides a form of verification for the testing center staff when a student cannot produce a I-card. 
+ATS 3.2.001
+  REQ: The system shall be able to look up a student (including picture) based on I-Number.
+  EX: This provides a form of verification for the testing center staff when a student cannot produce a I-card. 
      This enables the employees to verify that a student is really who they say they are.
-ATS3.2.002
-  REQ:The system shall provide information about the average waiting time before entering the line using 
+ATS 3.2.002
+  REQ: The system shall provide information about the average waiting time before entering the line using 
   the existing hardware (TV/Monitor).
-  EX:This will enable students coming to the Testing Center to know how long the wait will be.
-ATS3.2.003
-  REQ:System shall be able to show test results as students leave the testing center using the existing
+  EX: This will enable students coming to the Testing Center to know how long the wait will be.
+ATS 3.2.003
+  REQ: System shall be able to show test results as students leave the testing center using the existing
   hardware (TV at testing center exit).
-  EX:This will enable students taking auto-graded test to receive immediate test results.
-ATS3.2.004
-  REQ:Students shall be able to review what they are allowed to bring to their test before arriving 
+  EX: This will enable students taking auto-graded test to receive immediate test results.
+ATS 3.2.004
+  REQ: Students shall be able to review what they are allowed to bring to their test before arriving 
   at the testing center. 
   EX: After the student logs into ATS in a web browser, they will be able to see scheduled tests and review 
   what they are allowed to bring to the test with them (calculator, note card, dictionary, etc).
-ATS3.2.005
-  REQ:The System shall interact with I-Learn interfaces to upload grades. 
-  EX:Once grades have been entered, ATS will interface with I-Learn so that the teacher and students can see 
+ATS 3.2.005
+  REQ: The System shall interact with I-Learn interfaces to upload grades. 
+  EX: Once grades have been entered, ATS will interface with I-Learn so that the teacher and students can see 
   grades within I-Learn.
-
-
-+Items to be backed up durring the 'period of inactivity' (specified in 3.6)
-+The System shall interact with I-Learn interfaces to upload statistics.
-    -For a teacher to review for knowledge of the test and it's content.
-    -Information can be broken down per user.
-+System shall handle multiple testing locations
-+System shall allow online testing
-+System shall be scalable (ie desktops to mobile and becasue of considerable growth)
-+The system shall provide the option to schedule tests.
-    -To streamline process and avoid a crowded testing center.
-    -To avoid conflicts of testing times.
-    -To handle ADA (disabilities) scheduling.
-+The system shall provide information about the average waiting time before entering the line.
-+The system shall provide information about the average waiting time before entering the line. +The user will be 
-  able to check this information in the school website.
-System shall allow faculty to submit tests remotely
-    -To give teachers the option to change tests after submission.  
-    -Less chance for human error with no middle exchange.   
-System shall offer metrics for the testing services and teachers
-  -What metrics?
-System shall time each test.
-EXP: Teacher wants to know how much time is needed for tests
-System shall return time results to the teacher.
-EXP: Teacher wants to know how much time is needed for tests
-System shall not require the downloading of any form.
-EXP: The submission process is bothersome and requires saving tests then emailing them. The current testing center 
+ATS 3.2.006
+  REQ: The System shall interact with I-Learn interfaces to upload test statistics.
+  EX: This will be useful for the teacher to understand how the test scores ranged, and for reporting. The 
+  statistical information may be broken down per user.
+ATS 3.2.007
+  REQ: System shall be able to handle multiple testing locations.
+  EX: For busy hours and/or for remote testing locations to use the same system as the Tesing Center for checkins 
+  and checkouts.
+ATS 3.2.008 //NEEDS SOME MORE INFO (kinda self explanitory)
+  REQ: System shall allow for online testing.
+  EX:
+ATS 3.2.009
+  REQ: System shall be scalable 
+  EX: The system will be able to grow from desktops to mobile and becasue of considerable growth and advancement 
+  in technology.
+ATS 3.2.010
+  REQ: The system shall provide the option to schedule tests.
+  EX: To process and avoid a crowded testing center.
+  To avoid conflicts of testing times.
+  To handle ADA (disabilities) scheduling.
+ATS 3.2.011
+  REQ:The system shall provide information to those coming to take a test about the average waiting time 
+  before entering the line.
+  EX:Using existing technology (camera and web) to view the current line.
+ATS 3.2.012
+  REQ: System shall allow faculty to submit tests remotely
+  EX: This will allow teachers the option to change tests after submission. Overall having less chance 
+  for human error with no middle exchange (current system). 
+ATS 3.2.013 //NEEDS SOME MORE INFO
+  REQ: System shall offer metrics for the testing services and teachers
+  EX: -What metrics?
+ATS 3.2.014
+  REQ: System shall time each test.
+  EX: Teacher wants to know how much time is needed for tests
+ATS 3.2.015
+  REQ: System shall return time results to the teacher.
+  EX: Teacher wants to know how much time is needed for tests
+ATS 3.2.016
+  REQ: System shall not require the downloading of any form.
+  EX: The submission process is bothersome and requires saving tests then emailing them. The current testing center 
   System does this and the teachers have explicitly requested that it not be this way.
-System shall not allow pausing a test.
-    -Not allow a user to "save for later" option of a test.
+ATS 3.2.017
+  REQ: System shall not allow pausing a test.
+  EX: Not allow a user to "save for later" option of an online test.
+  
+For DEVYN  
++Items to be backed up durring the 'period of inactivity' (specified in 3.6)
     
 3.3.	 Performance requirements
 +The system shall support 500 students taking a test at any given time (either electronic or paper)
