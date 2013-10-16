@@ -128,9 +128,6 @@ The system will be scalable for use on a mobile device. Currently, the system ru
 3.	Specific Requirements (Devyn: Draft) (Jordan: man in middle)  (Chris: Final Review)
 
 3.1.	 External interfaces
-+Enable student to view scores and times for past, current and upcoming tests in the testing center
-+System shall allow online testing
-+System shall be scalable (ie desktops to mobile)
 +The system shall provide information about what is required to bring to the testing center.
 +The system shall provide information about what is allowed to bring to the testing center.
 +The system shall provide information about what is not allowed to bring to the testing center.
@@ -253,7 +250,12 @@ EXP: Some teachers don't use the testing center specifically because of scheduli
   and finals.
 Scores, test dates and tests shall be backed up outside of bussiness hours.
 EXP: For auditing purposes these things need to be kept backed up. See also ATS 3.4.010
-    
++Enable student to view scores and times for past, current and upcoming tests in the testing center
++System shall allow online testing
++System shall be scalable (ie desktops to mobile)
+System shall accept PDF forms of tests
+EXP: For math based tests, they need to submit PDF's or the symbols of the tests will be changed.
+
 3.3.	 Performance requirements
 +The system shall support 500 students taking a test at any given time (either electronic or paper)
 +The system shall support X number of employee terminals
@@ -297,8 +299,6 @@ ATS 3.4.010
   EX: Logging of when the test is taken, how the test is taken, when the test is checked out, when the test is checked back in, how long the test took, and the score are all important in resolving potential disputes or accounts of cheating. For this reason all actions shall be logged and stored in the secure database.
 
 3.5.	 Design constraints
-System shall accept PDF forms of tests
-EXP: For math based tests, they need to submit PDF's or the symbols of the tests will be changed.
 
 3.5.1.	Standards compliance
 
