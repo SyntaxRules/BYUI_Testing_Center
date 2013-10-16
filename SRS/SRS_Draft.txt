@@ -65,65 +65,64 @@ Specific Requirements
   Performance requirements
   
   
-2.	Overall description
+2.	Overall Description
 
 2.1.	 Product Perspective
 In this section we give an overview of the Automated Testing System (ATS). This includes its interfaces, constraints, and assumptions.
 
-2.1.1.	System interfaces
-The testing center system shall interface with existing school systems including I-Learn and Jenzabar. The system shall interface with I-Learn to enable teachers to edit and upload test scores. It shall also allow the students to view their test scores. Within ATS the teacher will be able to hide or show student scores. The system shall interface with Jenzabar to retrieve existing student data, including the I-Number, name, date of birth, class schedule, and picture. This data will be used for various verifications and system logins as explained in Section 3 of this document. ATS shall provide interfaces for mobile and desktop applications in order to provide scalability and allow for future growth. See Section 3.1 for further information.
+2.1.1.	System Interfaces
+ATS shall interface with existing school systems. These systems include I-Learn and Jenzabar. ATS shall interface with I-Learn to enable teachers to edit and upload test scores. It shall also allow the students to view their test scores. Within ATS, the teacher will have the option to make scores visible to the student or hide them. ATS must interface with Jenzabar to retrieve existing student data, including the student I-Number, name, date of birth, class schedule, and student picture. This data will be used for various verifications and system logins as explained in Section 3 of this document. ATS must be scalable and allow for future growth. Interfaces for mobile and desktop applications must be provided. This enables ATS to add new technology as it is introduced. See Section 3.1 for further information. ATS shall have the ability to provide music to one of the rooms for testing and for the people waiting in line as deemed appropriate.
 
-2.1.2.	User interfaces
-ATS shall inform the user of any errors within the system. Persons using computers for testing shall only have access to their test through ATS. There shall be a user interface for employees to check-in and check-out electronic/paper tests. There shall be a user interface for teachers to input tests, schedule tests, and make student grades available to the student interface. There shall be a user interface for students to view their own test results.
+2.1.2.	User Interfaces
+ATS shall inform the user of any errors within the system. Persons using computers for testing shall only have access to their test through ATS. There shall be a user interface for employees to check-in and check-out both electronic and paper tests. There shall be a user interface for teachers to input tests, schedule tests, and make student grades available to the student interface. There shall be a user interface for students to view their own test results. 
 
-2.1.3.	Hardware interfaces
-ATS will interface with existing display monitors in the testing center. The existing Testing Center monitors are at the front of the Testing Center in the entry way and at the Testing Center exit. ATS will also offer a secure connection to employee computers in the Testing Center or in a satellite office to the Testing Center. Each employee computer in the check-in area will have a number pad accessible to students who will enter their I-Number as part of the check-in process. ATS shall interface with a printer for printing documents. ATS shall also interface with the current Scantron device that translates paper tests to an electronic form. This interface must be scalable, allowing for one or more printers or Scantron devices. ATS must be able to identify paper tests.
+2.1.3.	Hardware Interfaces
+ATS will interface with existing display monitors in the testing center. The existing Testing Center monitors are at the front of the Testing Center in the entry way and at the Testing Center exit. ATS will also offer a secure connection with employee computers, which may be at the Testing Center or at a satellite office to the Testing Center. Each employee computer in the check-in area will have a number pad accessible to students, who will enter their I-Number as part of the check-in process. ATS shall interface with a printer for printing documents. ATS shall also interface with the current Scantron device that translates paper tests to an electronic form. This interface must be scalable, allowing for one or more printers or Scantron devices. ATS must be able to identify paper tests.
 
-2.1.4.	Software interfaces
-ATS shall be compatible with client systems running current versions of Windows. The software shall be written in a programming language taught at BYU-I's Computer Science or CIT departments. This enables maintenance to be performed by BYU-I's graduates, students, or other professionals. ATS shall use a math engine to understand math symbols, make them printable, and allow students to add them to their tests.
+2.1.4.	Software Interfaces
+ATS shall be compatible with client systems running versions of Windows. The software shall be written in a programming language taught at BYU-I's Computer Science or CIT departments. This enables maintenance to be performed by BYU-I's graduates, students, or other professionals. ATS shall use a math engine to understand math symbols, make them printable, and allow students to add them to their tests.
 
-2.1.5.	Communication interfaces
-HTML content shall be compatible with Firefox, Chrome, and IE 9+ per University standards. (TODO: Confirm these are actual standards).
+2.1.5.	Communication Interfaces
+HTML Content served shall be compliant with Firefox, Chrome, and IE 9+ per University standards. (TODO: Confirm these are actual standards).
 
-2.1.6.	Memory constraints
+2.1.6.	Memory Constraints
 N/A
 
 2.1.7.	Operations
-The system shall have a period of inactivity for scheduled maintenance and backups when the testing center is closed. No tests shall be allowed to be taken during this time. The Testing Center shall be able to determine the period of inactivity.
+ATS shall have a period of inactivity when the testing center is closed, for scheduled maintenance and backups. No tests shall be allowed to be taken during this time. The Testing Center shall be able to set this period.
 
 2.1.8.	Site Adaptation Requirements
-  In the case of the installation of a satellite testing center, all test results, logging, actions, and problems must be reported and logged in the main testing center system located in the testing center.
+  In the case of the installation of a satellite Testing Center, all test results, logging, actions, and problems
+must be reported and logged to the main Testing Center system located in the testing center.
 
 2.2.	 Product Functions
-+Electronic test administration (including serving of computers)
-+Paper test administration (including printing of tests)
-+System shall monitor booklet number selections.
-    -Track test booklets in order stop cheating and eliminate re-printing of booklets.
-+System shall allow online testing
++electronic tests (including serving of computers)
++Paper tests (including printing of tests)
++ATS shall monitor booklet number selections.
+    -Track test booklets to save on printing to many and stop cheating.
++ATS shall allow online testing
 +System shall be scalable (ie desktops to mobile)
-+System shall scan testing center equipment to provide checkin and checkout capabilities.
-    -Store scanned equipment information in an internal database.
++System shall scan testing center equipment in and out.
+    -Scan equipment into a database that is in the system.
 
 2.3.	 User Characteristics
 
 2.4.	 Constraints
-The system shall perform at 100% efficiency for storage and delivery of test scores to teachers and students. (This doesn’t make sense. Possibly… The system shall guarantee accurate storage and delivery of test scores.) 
-The project shall be written in a language which is currently taught at BYU-I. This will allow students and faculty to maintain the system.
-The system needs to interface with I-Learn, Jenzebar, and the Scantron device. I-Learn provides the online  testing environment for the current system. The Scantron device reads and evaluates the score sheets given for paper tests. Jenzebar is the governing system for the BYU-I campus and is used to retrieve and store student information.
-The system shall be available for use through a web interface. This will allow for system access from any location within the IP domain of BYU-I.
+ATS shall perform at 100% efficiency for storage and delivery of test scores to teachers and students. 
+  (I’m not sure what numbers we should use for reliability) 
+ATS must be written in a language currently being taught at BYU-I. This will allow for students and faculty to maintain the system. ATS needs to interface with I-Learn, Jenzabar, and the Scantron device. I-Learn provides the online testing environment for the current system. The Scantron device reads in and evaluates the score sheets given for most paper tests. Jenzabar is the governing system of the BYU-I campus and is used to retrieve and store student information. ATS must be available for use through a web interface. This will allow for system access from any location within the IP domain of BYU-I.
 
 2.5.	 Assumptions and Dependencies
 The different systems that are assumed to be operational outside of this project are as follows:
-+ Windows OS - The system will be developed to work with an end system with the Windows Operating System installed.
-+ Jenzebar – The system will retrieve the student data from the Jenzebar system.
-+ I-Learn – Online tests will be taken through the I-Learn system. Grades will be posted to the I-Learn system as well.
-+ Scantron – The Scantron will deliver its information to the system where it will be processed and used for test evaluation.
-+ The TV Grade Portal – The screen at the exit of the testing center will be operational to display the results of the students competed tests.
-+ Printers – Printers will be available to print paper tests.
+(bullet) Windows OS - The system will be developed to work with an end system which has the Windows Operating System installed.
+(bullet) Jenzabar – The system will retrieve the student data from the Jenzabar system.
+(bullet) I-Learn – Online tests will be taken through the I-Learn system. Grades will be posted to the I-Learn system as well.
+(bullet) Scantron – The Scantron will deliver its information to the system where it will then be processed and used for test evaluation.
+(bullet) The TV Grade Portal – The screen at the exit of the testing center will be operational to display the results of the students competed tests.
+(bullet) Printers – Printers will be available to print paper tests.
 
-
-2.6.	 Apportioning of requirements
-The system will be scalable for use on a mobile device. Currently, the system runs both electronic and paper tests. The electronic testing is run primarily through I-Learn. The goal of the testing center is to completely move to online testing without interfacing with I-Learn.
+2.6.	 Apportioning of Requirements
+As of now the system runs both paper and online tests. The online testing is run primarily through I-Learn. Eventually, the goal of the testing center is to move completely to online testing without interfacing with I-Learn. ATS will also need to be scalable for use on a mobile device.
 
 3.	Specific Requirements (Devyn: Draft) (Jordan: man in middle)  (Chris: Final Review)
 
