@@ -310,6 +310,8 @@ EXP: For auditing purposes these things need to be kept backed up. See also ATS 
 +System shall be scalable (ie desktops to mobile)
 System shall accept PDF forms of tests
 EXP: For math based tests, they need to submit PDF's or the symbols of the tests will be changed.
+ATS shall allow teacher the option of changing scores for a test after intial upload.
+EXP: In the case where a curve is desired, or when scores need to be corrected to due to teacher errors or ATS errors.
 
 3.3.	 Performance requirements
 +The system shall support 500 students taking a test at any given time (either electronic or paper)
@@ -360,44 +362,44 @@ ATS 3.4.010
 3.6.	 Software system attributes
 ATS 3.6.001
   REQ: The system shall be reset at least once a week.
-  EX:
+  EX: This is required so that common errors from memory caching can be avoided. This requirement help the system stay away from possible long term problems from overflow and underflow.
 
 3.6.1.	Reliability
-ATS 3.6.00?
+ATS 3.6.002
   REQ: All test score submissions must recieve a confirmation from ATS of the result of the action.
-  EX:
+  EX: The system needs to avoid any possible problems caused by the unreliability of the internet or other interfaces. Forcing a transmission of a confirmation will ensure that no scores or logs are lost on the wire becasue of common problems such as packet loss.
 
 3.6.2.	Availability
-ATS 3.6.00?
+ATS 3.6.003
   REQ: ATS shall be inaccesable for testing services outside of business hours (this excludes the viewing of submitted scores).
-  EX:
-ATS 3.6.00?
-  REQ: Schedualed ATS exams will only be allowed burring their scheduled time
-  EX: ADA compiance.
-ATS 3.6.00?
+  EX: In the event ATS runs into an error or is detects possible cheating ATS needs to be able to contact employees. For this reason ATS will only perform testing durring business hours. ATS also needs this time to perform backup's of the days activities (see ATS 3.4 of this document).
+ATS 3.6.004
+  REQ: Schedualed ATS exams will only be allowed burring their scheduled time.
+  EX: Schedualed tests will be the result of ADA comliance and will require additional setup by staff, it would be hard for staff or ATS to accomidate ADA compliance at last minuite.
+ATS 3.6.005
   REQ: System shall allow teachers to change test content up to the time the test opens
-  EX:
-ATS 3.6.00?
+  EX: To avoid conflicts with multiple, and different versions of the test being administered.
+ATS 3.6.006
   REQ: ATS shall allow teachers to change test dates up to the day the test is schedualed to open.
-  EX:
+  EX: This requirement gives ATS time and external systems time to sync the dates to all sytems. So that external only have to worry about a test changing mid day.
 
 3.6.3.	Security
-ATS 3.6.00?
+ATS 3.6.007
   REQ: System shall allow for remote proctoring. All student information will be displayed on remote screen for proctor.
-  EX: 
-ATS 3.6.00?
-  REQ: System shall notify staff of detected attempts of cheating. -Attempts to open unnecessary programs or features.
-  EX:  
-ATS 3.6.00?
+  EX: This helps electronic proctoring where it would allow proctors to see anytime someone switches from their specified program.
+ATS 3.6.008
+  REQ: System shall notify staff of detected attempts of cheating.
+  EX: There are certain items that are obvious flags for cheating, such as the testing program losing focus and other programs being opened. It will help proctors a lot to know when this happens so that they can direct their attention toward it and determine quickly if cheating is actually occouring.
+ATS 3.6.009
   REQ: System shall allow for designated, non-faculty, persons to review assessments.
-  EXP: Some teachers doesn’t use the services very frequently because they mostly do writing tests that they like to look over or have their TA do it
-ATS 3.6.00?
+  EXP: Some teachers don’t use the services very frequently because they mostly do writing tests that they like to look over or have their TA do it.
+ATS 3.6.010
   REQ: System shall allow students to take exams only for classes currently registered for.
   EXP: Teachers have had some issues with test previously including, students given wrong exam, used wrong key to 
-  grade, or proctors having hard time following instructions
+  grade, or proctors having hard time following instructions.
 
 3.6.4.	Maintainability
-ATS 3.6.00?
+ATS 3.6.011
   REQ: The system shall be programmed in a language taught at BYU-Idaho.
   EXP: The last system was programmed in PIC Basic and it was extremly hard to maintain. The reasons it was 
   hard to maintain was the fact that not very many people know PIC Basic. For this reason, we need the system to 
@@ -405,7 +407,7 @@ ATS 3.6.00?
   individuals it can be more easily maintained, in the future.
 
 3.6.5.	Portability
-ATS 3.6.00?
+ATS 3.6.012
   REQ: ATS shall allow satelite centers to be setup and used to house additional computers in time of need.
   EX: The Testing Center is not very busy except for a few certain times. One of which is final times. Past semesters have proven that computer tests are in high demand during finals times and some students have had to wait a significant time to take their test. Allowing additional satelite centers would be a form of congestion control for these high occupancy times.
 
