@@ -127,11 +127,67 @@ As of now the system runs both paper and online tests. The online testing is run
 3.	Specific Requirements (Devyn: Draft) (Jordan: man in middle)  (Chris: Final Review)
 
 3.1.	 External interfaces
-+The system shall provide information about what is required to bring to the testing center.
-+The system shall provide information about what is allowed to bring to the testing center.
-+The system shall provide information about what is not allowed to bring to the testing center.
-+The system shall provide information about what is required to bring to the testing center
-+The system shall provide information about the average waiting time before entering the line.
+3.1.1 System interfaces
+ATS 3.1.1.001
+  REQ: The ATS shall interface with I-Learn.
+  EX: Teachers will need to upload test scores to I-Learn, which can then be viewed by the student. I learn will also provide the online platform for tests.
+ATS 3.1.1.003
+  REQ: The ATS shall interface with Jenzebar.
+  EX: Jenzebar contains the data for each student. This data will be used for verifications and system logins. 
+ATS 3.1.1.004
+  REQ: The ATS shall provide for mobile and desktop applications. 
+  EX: The ATS needs to be able to work on the desktop computers currently used in the testing center but be able to function on the Windows tablets that are to come.
+
+3.1.2 User interfaces
+ATS 3.1.2.001
+  REQ: The ATS shall inform of any errors that occur during operation.
+  EX: Any errors that occur during operation need to be displayed to the user in such a way that they can clearly see what the error was and how to correct it.
+ATS 3.1.2.002
+  REQ: The ATS shall provide an interface for employees to check students into the Testing Center.
+  EX: This interface will allow a Testing Center employee to view student information at check-in. The information for each student must contain verification of identity including: I-Number, Photo ID, and tests allowed to take. 
+ATS 3.1.2.004
+  REQ: The ATS shall provide an interface for employees to check student out of the Testing Center.
+  EX: The checkout process is to involve the turning in of test, scanning in answer sheets, and checking the student out of the testing center.
+ATS 3.1.2.003
+  REQ: Electronic tests shall only be accessible through the ATS.
+  EX: There needs to be an interface that will restrict access to electronic tests given. This must enforce the scheduled times for test access as well as what outside resources are available to the test taker.
+ATS 3.1.2.003
+  REQ: The ATS system shall provide an interface for faculty to input tests, schedule tests, make changes to tests, and make grades available for the student interface.
+  EX: The faculty will need an interface where they can input the test questions and answers. They also need to be able to schedule a test, make changes to tests that are entered into the system, and make the grades available for students once the tests have been completed.
+ATS 3.1.2.003
+  REQ: The ATS shall have an interface where students can view their test results.
+  EX: The ATS application needs to provide a way for students to see what there test results are once they have completed the test and the teacher has made the grades available.
+
+3.1.3 Hardware interfaces
+ATS 3.1.3.001
+  REQ: The ATS must interface with the Scantron Devise.
+  EX: The Scantron evaluates the Bubble Sheet tests against the answer key then delivers its data in electronic form to the ATS system for processing.
+ATS 3.1.3.002
+  REQ: The ATS must interface with multiple printers
+  EX: Printers are used for paper tests and printing the cover sheets given to the student.
+ATS 3.1.3.003
+  REQ: The ATS must interface with existing display monitors.
+  EX: These monitors are located at the entrance and exit of the Testing Center. The one at the enterace displays the active tests and news for the Testing Center. The monitor at the exit displays the results of the past 20 students that checked out of the Testing Center.
+ATS 3.1.2.004
+  REQ: The ATS must interface with a number pad.
+  EX: The number pad will be used by the students to enter there I-Number as they check into the Testing center. These number pads will be located at each computer used for check-in purposes.
+
+3.1.4 Software interfaces
+ATS 3.1.4.001
+  REQ: The ATS shall be developed to work with clients running current versions of Windows OS.
+  EX: The primary systems that the ATS will be working with will be Windows PC’s.
+ATS 3.1.4.002
+  REQ: The ATS shall use a math engine that will understand math symbols and syntax.
+  EX: Using a math engine will enable students to use math symbols, make them printable, and allow students to add them to their electronic tests.
+ATS 3.1.4.003
+  REQ: The ATS application shall be developed in a programming language taught at BYU-I.
+  EX: By developing it in a language known to students and staff, the ATS application will be maintainable by BYU-I graduates, students, or other professionals.
+
+3.1.4 Communications interfaces
+ATS 3.1.4.001
+  REQ: HTML content shall be compatable with Firefox, Chrome, and IE 9+.
+  EX: The university standard is limited to these browsers.
+
 
 3.2.	 Functions
 ATS 3.2.001
