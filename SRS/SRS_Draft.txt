@@ -308,16 +308,29 @@ System shall accept PDF forms of tests
 EXP: For math based tests, they need to submit PDF's or the symbols of the tests will be changed.
 ATS shall allow teacher the option of changing scores for a test after intial upload.
 EXP: In the case where a curve is desired, or when scores need to be corrected to due to teacher errors or ATS errors.
-
-3.3.	 Performance requirements
-+The system shall support 500 students taking a test at any given time (either electronic or paper)
-+The system shall support X number of employee terminals
-+System shall handle multiple testing locations
-+System shall be scalable (ie desktops to mobile)
-System shall allow for last minute changes to the test.
-The system shall not allow last minute schedule changes.
 EXP: Teachers are dissatisfied with being unable to make last minute changes.
-+The user interface shall enable a testing center employee with 1 month of experience to check out a test within 2 min.
++The system shall not allow schedule changes within one week of the opening date of a test.
++The system shall allow for changes to be made to a test until a student has begun taking the test.
++The System shall not allow changes to be made to a test after a student has begun taking the test.
+
+
+3.3.         Performance requirements
+ATS 3.3.001
+  REQ: The system shall support 500 students taking a test at any given time (either electronic or paper)
+  EX: There are large quantities of student who need uuse of the testing facilities and the rotation of students currently taking tests is very rapid, thus preventing congestion and allowing for a larger number of student to take their tests in a timely fashion.
+ATS 3.3.002
+  REQ: The system shall support 30 employee terminals
+  EX: At any given time there are a certain number of employees distributing tests.  This could increase or decrease depending on the current state of satelite centers and time during the semester.
+ATS 3.3.003 
+  REQ: The user interface shall enable a testing center employee with 1 month of experience to check out a test within 1 min 95% of the time.
+  EX: Wait time to enter the Testing center can be greatly reduced if the testing center employees are able to efficently and accurately distribute tests. ATS will facilite this.
+ATS 3.3.004
+  REQ: A mobile device (Microsoft Surface) used for testing shall be available within 1 minute of check in to be distributed to the next available student for test taking purposes.
+  EX: As the Testing center moves toward an all electronic testing environment the need to be able to use a computer that a previous student was using will increase.  This must be able to happen as quickly as the tests can be distributed.
+
+THIS DOES NOT BELONG HERE, BUT I AM STRUGGLING TO PLACE IT.  I THINK IT MIGHT GO IN  2.1.8, BUT I DON”T KNOW FOR SURE
++System shall handle multiple testing locations
+
 
 3.4.	 Logical database requirements
 ATS 3.4.001
@@ -424,6 +437,9 @@ ATS 3.6.011
 ATS 3.6.012
   REQ: ATS shall allow satelite centers to be setup and used to house additional computers in time of need.
   EX: The Testing Center is not very busy except for a few certain times. One of which is final times. Past semesters have proven that computer tests are in high demand during finals times and some students have had to wait a significant time to take their test. Allowing additional satelite centers would be a form of congestion control for these high occupancy times.
+  ????REQ: System shall be compatible with a Microsoft Surface.
+  
+
 
 3.7.	 Organizing the specific requirements
 
