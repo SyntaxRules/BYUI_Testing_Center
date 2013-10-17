@@ -251,51 +251,80 @@ ATS 3.2.016
 ATS 3.2.017
   REQ: System shall not allow pausing a test.
   EX: Not allow a user to "save for later" option of an online test.
-  
-System shall give immediate access to student test results.
-EXP: The teacher wants a quicker turn-around time
-System shall display which tests have already been scheduled.
-EXP: Wants to be able to see what tests are scheduled when inorder to see when they can do a test
-System shall provide notifications about both paper and electronic tests.
-EXP: Doesn’t like how the currently notifications are from two different services.
-System shall offer multiple options for question formatting
-EXP: Teachers want the ability to have a sideways key for multiple choice questions
-System shall offer metrics for the testing services and teachers
-EXP: Teachers want better stats collection and ways to use it for tests
-System shall provide a way to create bubble sheet answers
-EXP: Teachers want a bubble sheet software that doesn't have a huge delay and errors
-System shall be able to export grades into I-learn.
-EXP: This used to be a feature, the teacher would like to be able to do it again.
-System shall allow teachers to re-use old test with and edit the tests.
-EXP: Teachers want to be able to use old tests, but change wording of questions
-System shall show available dates for testing.
-EXP: This will allow the teachers to know what dates are already open.
-Teacher shall select test dates when submitting tests.
-EXP: Teachers are in charge of selecting their own dates
-Teachers shall only submit bubble, write on, or computerized tests.
-EXP: We don't want anything outside of these tests
-System shall provide test submission and test date selection in the same process.
-EXP: We want a single system that will allow the submission process to be simplified
-Teachers shall be able to create tests in system.
-EXP: Teachers will be able to create write on tests in system
-System shall provide test creation services.
-EXP: Simplify the test creation and submission process
-System shall not hinder the proctoring of exams
-EXP: Some faculty members doesn’t use the services because they like to control the testing in their class. Also 
+ATS 3.2.018
+  REQ: System shall give immediate access to student test results.
+  EX: The teacher wants a quicker turn-around time
+ATS 3.2.019
+  REQ: System shall display which tests have already been scheduled.
+  EX: Students need to be able to see what tests are scheduled inorder to see when they can take a test
+ATS 3.2.020
+  REQ: System shall provide notifications about paper tests.
+  EX: They don't like how the current notifications are from two different services.
+ATS 3.2.021
+  REQ: System shall provide notifications about electronic tests.
+  EX: They don’t like how the current notifications are from two different services.
+ATS 3.2.022
+  REQ: System shall offer multiple options for question formatting.
+  EX: Teachers want the ability to have a sideways key for multiple choice questions //needs clarification HERE
+ATS 3.2.023 //is this the same as 3.2.013
+  REQ: System shall offer metrics for the testing services and teachers
+  EX: Teachers want better stats collection and ways to use it for tests
+ATS 3.2.024
+  REQ: System shall provide a way to create bubble sheet answers.
+  EX: Teachers want a bubble sheet software that doesn't have a huge delay and errors for paper tests.
+ATS 3.2.025 // Same as 3.2.005
+  REQ: System shall be able to export grades into I-learn.
+  EX: This used to be a feature, the teacher would like to be able to do it again.
+ATS 3.2.026
+  REQ: System shall allow teachers to re-use old tests.
+  EX: Teachers want to be able to use old tests, but change wording of questions
+ATS 3.2.027
+  REQ: System shall allow teachers to edit old tests for re-use. 
+  EX: Teachers want the ability to edit old test questions for re-use.
+ATS 3.2.028
+  REQ: System shall show available dates for testing.
+  EX: This will allow the teachers to know what dates are open for testing.
+ATS 3.2.029
+  REQ: Teacher shall select test dates when submitting tests.
+  EX: Teachers are in charge of selecting their own dates within the constraints of the program.
+ATS 3.2.030
+  REQ: Teachers shall only submit bubble, write on, or computerized tests.
+  EX: We don't want anything outside of these tests.
+ATS 3.2.031
+  REQ: System shall provide test submission and test date selection in the same process.
+  EX: We want a single system that will allow the submission process to be simplified
+ATS 3.2.032
+  REQ: Teachers shall be able to create tests within ATS.
+  EX: Teachers will be able to create all kinds of tests within ATS. (online, write on, paper multiple choice. etc.)
+ATS 3.2.033  // IS THIS THE SAME AS 3.2.032
+  REQ: System shall provide test creation services.
+  EX: Simplify the test creation and submission process
+ATS 3.2.034
+  REQ: System shall not hinder the proctoring of exams (HOW?)
+  EX: Some faculty members doesn’t use the services because they like to control the testing in their class. Also 
   because the environment doesn’t allow them to accomplish their “educational goals”.
-System shall provide error checking for required fields during test creation.
-EXP: Teachers sometimes miss things, and don't want to run through the whole form to see what box they missed. We need to be able to show them what parts they missed when submitting a test
-System shall notify via e-mail of successful test submission to Teachers
-EXP: This will allow the testing center and teachers to know that it has been submited.
-System shall notify via e-mail of successful Testing Center reservation to Teachers
-EXP: This will allow the testing center and teachers to know that it has been reserved.
-System shall return possible dates to the user if the desired date is unavailable.
-EXP:  Teachers suggested a web app to submit tests and schedule them, due to the back and forth to schedule tests
-System shall only allow one test per student at a time.
-EXP: Teachers would like to effectively track how long it takes a student to take a test, if a student takes more 
+ATS 3.2.035
+  REQ: System shall provide error checking for required fields during test creation.
+  EX: Teachers sometimes miss things, and don't want to run through the whole form to see what box they missed. 
+  We need to be able to show them what parts they missed when submitting a test.
+ATS 3.2.036
+  REQ: System shall notify via e-mail of successful test submission to Teachers.
+  EX: This will allow the testing center and teachers to know that it has been submited.
+ATS 3.2.037
+  REQ: System shall notify via e-mail of successful Testing Center reservation dates to Teachers.
+  EX: This will allow the testing center and teachers to know that it has been reserved.
+ATS 3.2.038
+  REQ: System shall return possible dates to the user if the desired date is unavailable.
+  EX: Teachers suggested a web app to submit tests and schedule them, due to the back and forth to schedule tests.
+ATS 3.2.039
+  REQ: System shall only allow one test per student at a time.
+  EX: Teachers would like to effectively track how long it takes a student to take a test, if a student takes more 
   than one test at a time, it is hard to gauge how long the test actually takes.
-System shall schedule on a first come first serve basis.
-EXP: They would like unlimited space so they can schedule a test whenever they want.
+ATS 3.2.040
+  REQ: System shall schedule tests on a first come first serve basis.
+  EX: They would like unlimited space so they can schedule a test whenever they want.
+
+
 System shall offer reservation services for testing.
 EXP: Some teachers don't use the testing center specifically because of scheduling issues during the semester 
   and finals.
