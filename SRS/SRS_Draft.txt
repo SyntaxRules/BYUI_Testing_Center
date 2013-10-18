@@ -560,12 +560,66 @@ The Organization we have chosen is by user class.  The user classes are:
   
   4.1.2 Summary
 
-4.2.	Appendix B: Faculty
+4.2.        Appendix B: Faculty
 
-  4.2.1 Questionnaires
+ 4.2.1 Questionnaires
 
-  4.2.2 Summary
-  
+    On average, how many times do you use the school's testing services each semester?
+
+    How long does it take for you to submit a test to the testing center?
+
+    Is this a satisfactory amount of time?
+
+    Why do you not use the Testing Center?
+
+    Are there things you would like to change about the Testing Center Process?
+
+    What do you like about the testing center?
+
+
+ 4.2.2 Summary
+
+    We found that teachers usually use the Testing Center about 7 or more times in a semester.
+
+    We found that it usually takes less than 15 minutes to submit a test to the testing center.
+
+    We found that most teachers were satisfactory with how long it takes to submit a test.
+
+    We found that teachers don’t use the testing center due to:
+
+        Teachers don’t use test because they use papers
+
+        Teachers want a quicker turn around
+
+        Teachers don’t want to deal with the hassle of the Testing Center
+
+        Teachers don’t believe that tests are useful in assessing students
+
+    We found that teachers wanted to change the following about the testing center:
+
+        Teachers want an easier way of submitting tests
+
+        Teachers want a more convenient way of submitting tests
+
+        Teachers want better statistics about the tests
+
+        Teachers want a better way to schedule tests
+
+        Teachers want something that interfaces with I-Learn
+
+        Teachers want a better way to make bubble tests
+
+        Teachers want errors in the submittal process to be more prevalent
+
+    We found that teachers like the following about the Testing Center:
+
+        Teachers like that the Testing Center is trying to meet their needs
+
+        Teachers like that the Testing Center provides a way to test outside of class on the student’s schedule
+
+        Teachers like that they can submit tests online
+        Teachers like that they can have proctored tests
+        
 4.3   Appendix C: Students
   
   4.3.1 Questionnaires
