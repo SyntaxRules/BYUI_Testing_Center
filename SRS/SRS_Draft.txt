@@ -149,399 +149,309 @@ The different systems that are assumed to be operational outside of this project
 The ATS will provide both paper and online tests. The online testing is provided primarily through I-Learn. Eventually, ATS shall provide online testing without interfacing with I-Learn. ATS will also need to be easily implemented on mobile devices
 
 
+3.        Specific Requirements (Devyn: Draft) (Jordan: man in middle) (Chris: Final Review)
 
-3.	Specific Requirements (Devyn: Draft) (Jordan: man in middle)  (Chris: Final Review)
 
-3.1.	 External interfaces
+3.1.     	External interfaces
 3.1.1 System interfaces
 ATS 3.1.1.001
-  REQ: The ATS shall interface with I-Learn.
-  EX: Teachers will need to upload test scores to I-Learn, which can then be viewed by the student. I learn will also provide the online platform for tests.
+ REQ: The ATS shall interface with I-Learn.
+ EX: Teachers will need to upload test scores to I-Learn, which can then be viewed by the student. I learn will also provide the online platform for tests.
+ATS 3.1.1.002
+ REQ: The ATS shall interface with Jenzabar.
+ EX: Jenzabar contains the data for each student. This data will be used for verifications and system logins.
 ATS 3.1.1.003
-  REQ: The ATS shall interface with Jenzebar.
-  EX: Jenzebar contains the data for each student. This data will be used for verifications and system logins. 
-ATS 3.1.1.004
-  REQ: The ATS shall provide for mobile and desktop applications. 
-  EX: The ATS needs to be able to work on the desktop computers currently used in the testing center but be able to function on the Windows tablets that are to come.
+ REQ: The ATS shall provide for desktop applications, and new technologies.
+ EX: The ATS needs to be able to work on the desktop computers currently used in the testing center but be able to function on any new technologies that are to come.
 3.1.2 User interfaces
 ATS 3.1.2.001
-  REQ: The ATS shall inform of any errors that occur during operation.
-  EX: Any errors that occur during operation need to be displayed to the user in such a way that they can clearly see what the error was and how to correct it.
+ REQ: The ATS shall inform of errors that occur during operation.
+ EX: Errors that occur during operation need to be displayed to the user in such a way that they can clearly see what the error was and how to correct it.
 ATS 3.1.2.002
-  REQ: The ATS shall provide an interface for employees to check students into the Testing Center.
-  EX: This interface will allow a Testing Center employee to view student information at check-in. The information for each student must contain verification of identity including: I-Number, Photo ID, and tests allowed to take. 
+ REQ: The ATS shall provide an interface for employees to check students into the Testing Center.
+ EX: This interface will allow a Testing Center employee to view student information at check-in. The information for each student must contain verification of identity including: I-Number, Photo ID, and tests allowed to take.
+ATS 3.1.2.003
+ REQ: The ATS shall provide an interface for employees to check student out of the Testing Center.
+ EX: The checkout process is to involve the turning in of test, scanning in answer sheets, and checking the student out of the testing center.
+
+
 ATS 3.1.2.004
-  REQ: The ATS shall provide an interface for employees to check student out of the Testing Center.
-  EX: The checkout process is to involve the turning in of test, scanning in answer sheets, and checking the student out of the testing center.
-ATS 3.1.2.003
-  REQ: Electronic tests shall only be accessible through the ATS.
-  EX: There needs to be an interface that will restrict access to electronic tests given. This must enforce the scheduled times for test access as well as what outside resources are available to the test taker.
-ATS 3.1.2.003
-  REQ: The ATS system shall provide an interface for faculty to input tests, schedule tests, make changes to tests, and make grades available for the student interface.
-  EX: The faculty will need an interface where they can input the test questions and answers. They also need to be able to schedule a test, make changes to tests that are entered into the system, and make the grades available for students once the tests have been completed.
-ATS 3.1.2.003
-  REQ: The ATS shall have an interface where students can view their test results.
-  EX: The ATS application needs to provide a way for students to see what there test results are once they have completed the test and the teacher has made the grades available.
+ REQ: The ATS system shall provide an interface for faculty to input tests, schedule tests, make changes to tests, and make grades available for the student interface.
+ EX: The faculty will need an interface where they can input the test questions and answers. They also need to be able to schedule a test, make changes to tests that are entered into the system, and make the grades available for students once the tests have been completed.
+ATS 3.1.2.005
+ REQ: The ATS shall have an interface where students can view their test results.
+ EX: The ATS application needs to provide a way for students to see what their test results are once they have completed the test and the teacher has made the grades available.
+
+
 3.1.3 Hardware interfaces
 ATS 3.1.3.001
-  REQ: The ATS must interface with the Scantron Devise.
-  EX: The Scantron evaluates the Bubble Sheet tests against the answer key then delivers its data in electronic form to the ATS system for processing.
+ REQ: The ATS must interface with the Scantron Device.
+ EX: The Scantron evaluates the Bubble Sheet tests against the answer key then delivers its data in electronic form to the ATS system for processing.
 ATS 3.1.3.002
-  REQ: The ATS must interface with multiple printers
-  EX: Printers are used for paper tests and printing the cover sheets given to the student.
+ REQ: The ATS must interface with multiple printers
+ EX: Printers are used for paper tests and printing the cover sheets given to the student.
 ATS 3.1.3.003
-  REQ: The ATS must interface with existing display monitors.
-  EX: These monitors are located at the entrance and exit of the Testing Center. The one at the enterace displays the active tests and news for the Testing Center. The monitor at the exit displays the results of the past 20 students that checked out of the Testing Center.
-ATS 3.1.2.004
-  REQ: The ATS must interface with a number pad.
-  EX: The number pad will be used by the students to enter there I-Number as they check into the Testing center. These number pads will be located at each computer used for check-in purposes.
+ REQ: The ATS must interface with existing display monitors.
+ EX: These monitors are located at the entrance and exit of the Testing Center. The one at the entrance displays the active tests and news for the Testing Center. The monitor at the exit displays the results of the past 20 students that checked out of the Testing Center.
+ATS 3.1.3.004
+ REQ: The ATS must interface with a number pad.
+ EX: The number pad will be used by the students to enter there I-Number as they check into the Testing center. These number pads will be located at each computer used for check-in purposes.
 3.1.4 Software interfaces
 ATS 3.1.4.001
-  REQ: The ATS shall be developed to work with clients running current versions of Windows OS.
-  EX: The primary systems that the ATS will be working with will be Windows PC’s.
+ REQ: The ATS shall be developed to work with clients running current versions of Windows OS.
+ EX: The primary systems that the ATS will be working with will be Windows PC’s.
 ATS 3.1.4.002
-  REQ: The ATS shall use a math engine that will understand math symbols and syntax.
-  EX: Using a math engine will enable students to use math symbols, make them printable, and allow students to add them to their electronic tests.
-ATS 3.1.4.003
-  REQ: The ATS application shall be developed in a programming language taught at BYU-I.
-  EX: By developing it in a language known to students and staff, the ATS application will be maintainable by BYU-I graduates, students, or other professionals.
-3.1.4 Communications interfaces
-ATS 3.1.4.001
-  REQ: HTML content shall be compatable with Firefox, Chrome, and IE 9+.
-  EX: The university standard is limited to these browsers.
+ REQ: The ATS shall use a math engine that will understand math symbols and syntax.
+ EX: Using a math engine will enable students to use math symbols, make them printable, and allow students to add them to their electronic tests.
+3.1.5 Communications interfaces
+ATS 3.1.5.001
+ REQ: HTML content shall be compatible with Firefox, Chrome, and IE 9+.
+ EX: The university standard is limited to these browsers.
 
 
-3.2.	 Functions
+
+3.2.     	Functions
 Student Requirements:
-
-// These two are potential duplicates:
-ATS 3.2.002
-  REQ: The system shall provide information about the average waiting time before entering the line using 
-  the existing hardware (TV/Monitor).
-  EX: This will enable students coming to the Testing Center to know how long the wait will be.
-ATS 3.2.011
-  REQ:The system shall provide information to those coming to take a test about the average waiting time 
-  before entering the line.
-  EX:Using existing technology (camera and web) to view the current line.
-  
-ATS 3.2.003
-  REQ: System shall be able to show test results as students leave the testing center using the existing
-  hardware (TV at testing center exit).
-  EX: This will enable students taking auto-graded test to receive immediate test results.
-ATS 3.2.004
-  REQ: Students shall be able to review what they are allowed to bring to their test before arriving 
-  at the testing center. 
-  EX: After the student logs into ATS in a web browser, they will be able to see scheduled tests and review 
-  what they are allowed to bring to the test with them (calculator, note card, dictionary, etc).
-ATS 3.2.010
-  REQ: The system shall provide the option to schedule tests.
-  EX: To process and avoid a crowded testing center.
-  To avoid conflicts of testing times.
-  To handle ADA (disabilities) scheduling.
-ATS 3.2.017
-  REQ: System shall not allow pausing a test.
-  EX: Not allow a user to "save for later" option of an online test.
-
-// I think this needs rewording, to something like "A student shall have access to a schedule of when their tests are offered."
-ATS 3.2.019
-  REQ: System shall display which tests have already been scheduled.
-  EX: Students need to be able to see what tests are scheduled inorder to see when they can take a test
-
-ATS 3.2.039
-  REQ: System shall only allow one test per student at a time.
-  EX: Teachers would like to effectively track how long it takes a student to take a test, if a student takes more 
-  than one test at a time, it is hard to gauge how long the test actually takes.
-  
-ATS 
-  REQ: Enable student to view scores and times for past, current and upcoming tests in the testing center
-  EX:
-ATS 
-  REQ: System shall accept PDF forms of tests
-  EXP: For math based tests, they need to submit PDF's or the symbols of the tests will be changed.
-
-Teacher Requirements:
-ATS 3.2.012
-  REQ: System shall allow faculty to submit tests remotely
-  EX: This will allow teachers the option to change tests after submission. Overall having less chance 
-  for human error with no middle exchange (current system). 
-  
-// These Two are potential duplicates:
-ATS 3.2.014
-  REQ: System shall time each test.
-  EX: Teacher wants to know how much time is needed for tests
-ATS 3.2.015
-  REQ: System shall return time results to the teacher.
-  EX: Teacher wants to know how much time is needed for tests
-  
-ATS 3.2.016
-  REQ: System shall not require the downloading of any form.
-  EX: The submission process is bothersome and requires saving tests then emailing them. The current testing center 
-  System does this and the teachers have explicitly requested that it not be this way.
-ATS 3.2.018
-  REQ: System shall give immediate access to student test results.
-  EX: The teacher wants a quicker turn-around time
-  
-// These two are very similar:
-ATS 3.2.022
-  REQ: System shall offer multiple options for question formatting.
-  EX: Teachers want the ability to have a sideways key for multiple choice questions //needs clarification HERE
-ATS 3.2.024
-  REQ: System shall provide a way to create bubble sheet answers.
-  EX: Teachers want a bubble sheet software that doesn't have a huge delay and errors for paper tests.
-
-// These two are very similar:
-ATS 3.2.026
-  REQ: System shall allow teachers to re-use old tests.
-  EX: Teachers want to be able to use old tests, but change wording of questions
-ATS 3.2.027
-  REQ: System shall allow teachers to edit old tests for re-use. 
-  EX: Teachers want the ability to edit old test questions for re-use.
-  
-ATS 3.2.028
-  REQ: System shall show available dates for testing.
-  EX: This will allow the teachers to know what dates are open for testing.
-ATS 3.2.029
-  REQ: Teacher shall be able to select test dates when submitting tests.
-  EX: Teachers are in charge of selecting their own dates within the constraints of the program.
-ATS 3.2.030
-  REQ: Teachers shall only be able to submit bubble, write on, or computerized tests.
-  EX: We don't want anything outside of these tests.
-ATS 3.2.031
-  REQ: System shall provide test submission and test date selection in the same process.
-  EX: We want a single system that will allow the submission process to be simplified
-
-// These two are potential duplicates:
-ATS 3.2.032
-  REQ: Teachers shall be able to create tests within ATS.
-  EX: Teachers will be able to create all kinds of tests within ATS. (online, write on, paper multiple choice. etc.)
-ATS 3.2.033  // IS THIS THE SAME AS 3.2.032
-  REQ: System shall provide test creation services.
-  EX: Simplify the test creation and submission process
-
-ATS 3.2.034
-  REQ: System shall not hinder the proctoring of exams by enforcing a location on the teachers submitting the test.
-  EX: Some faculty members doesn’t use the services because they like to control the testing in their class, e.g.
-  because the environment doesn’t allow them to accomplish their “educational goals”.
-ATS 3.2.035
-  REQ: System shall provide error checking for required fields during test creation.
-  EX: Teachers sometimes miss things, and don't want to run through the whole form to see what box they missed. 
-  We need to be able to show them what parts they missed when submitting a test.
-
-// These two are similar, but I can see potential to eed both.  Maybe some rewording?
-ATS 3.2.036
-  REQ: System shall notify via e-mail of successful test submission to Teachers.
-  EX: This will allow the testing center and teachers to know that it has been submited.
-ATS 3.2.037
-  REQ: System shall notify via e-mail of successful Testing Center reservation dates to Teachers.
-  EX: This will allow the testing center and teachers to know that it has been reserved.
-
-ATS 3.2.038
-  REQ: System shall return possible dates to the teacher if the desired date is unavailable.
-  EX: Teachers suggested a web app to submit tests and schedule them, due to the back and forth to schedule tests.
-
-// These two directly confilict with one another
-ATS 3.2.040
-  REQ: System shall schedule tests on a first come first serve basis.
-  EX: Teachers would like the opportunity to shedule their tests when desired (with the exception of finals week) regardless of status or major associations.
-System shall offer reservation services for testing.
-EXP: Some teachers don't use the testing center specifically because of scheduling issues during the semester 
-  and finals.
-ATS
-  REQ: The system shall allow for a teacher to change a test until a student has begun taking that test.
-  EX:
-ATS
-  REQ: The System shall not allow a teacher to change a test after a student has begun taking that test.
-  EX:
-
-// This is unclear.  Do we mean what is stored in I-learn, or is ATS going to query BrainHoney for the scores that were actually rewarded?
-ATS 
-  REQ: ATS shall allow teacher the option of changing scores for a test after intial upload.
-  EXP: In the case where a curve is desired, or when scores need to be corrected to due to teacher errors or ATS errors.
-  
-ATS
-  REQ: The system shall not allow schedule changes within one week of the opening date of a test.
-  EX: Teachers are dissatisfied with being unable to make last minute changes.
-ATS
-  REQ: The system shall allow schedule changes one week before or any time previous of the opening date of a test.
-  EX: Teachers are dissatisfied with being unable to make last minute changes.
-  
-Employee Requirements:
 ATS 3.2.001
-  REQ: The system shall be able to look up a student (including picture) based on I-Number.
-  EX: This provides a form of verification for the testing center staff when a student cannot produce a I-card.  This enables the employees to verify that a student is really who they say they are.
-ATS 3.2.020
-  REQ: System shall provide notifications about paper tests.
-  EX: They?? don't like how the current notifications are from two different services.
-ATS 3.2.021
-  REQ: System shall provide notifications about electronic tests.
-  EX: They?? don’t like how the current notifications are from two different services.
+ REQ: The system shall provide information about the average waiting time before entering the line using the existing hardware (TV/Monitor/Web Camera).
+ EX: This will enable students coming to the Testing Center to know how long the wait will be.
+ATS 3.2.002
+ REQ: Students shall be able to review what they are allowed to bring to their test before arriving at the testing center.
+ EX: After the student logs into ATS in a web browser, they will be able to see scheduled tests and review what they are allowed to bring to the test with them (calculator, note card, dictionary, etc.).
+ATS 3.2.003
+ REQ: The system shall provide the option for students to schedule tests.
+ EX: This will help students to avoid long lines at the testing center, and be able to handle ADA (disabilities) scheduling.
+ATS 3.2.004
+ REQ: System shall not allow pausing a test.
+ EX: Not allow a user to "save for later" option of an online test.
 
-Other Requirements:
-These two are duplicates:
+
 ATS 3.2.005
-  REQ: The System shall interact with I-Learn interfaces to upload grades. 
-  EX: Once grades have been entered, ATS will interface with I-Learn so that the teacher and students can see 
-  grades within I-Learn.
-ATS 3.2.025 // Same as 3.2.005
-  REQ: System shall be able to export grades into I-learn.
-  EX: This used to be a feature, the teacher would like to be able to do it again.
+ REQ: System shall display a list of student’s tests that have already been scheduled.
+ EX: Students need to be able to see what tests are scheduled in order to see when they can take a test
+
 
 ATS 3.2.006
-  REQ: The System shall interact with I-Learn interfaces to upload test statistics.
-  EX: This will be useful for the teacher to understand how the test scores ranged, and for reporting. The 
-  statistical information may be broken down per user.
+ REQ: System shall only allow a student to take one test at a time.
+ EX: Teachers would like to effectively track how long it takes a student to take a test, if a student takes more than one test at a time, it is hard to gauge how long the test actually takes.
+
+
+Teacher Requirements:
 ATS 3.2.007
-  REQ: System shall be able to handle multiple testing locations.
-  EX: For busy hours and/or for remote testing locations to use the same system as the Tesing Center for checkins 
-  and checkouts.
-ATS 
-  Scores, test dates and tests shall be backed up outside of bussiness hours.
-  EXP: For auditing purposes these things need to be kept backed up. See also ATS 3.4.010
-  
-These are not specific enough to belong in section 3.2:
-ATS 3.2.008 //NEEDS SOME MORE INFO (kinda self explanitory)
-  REQ: System shall allow for online testing.
-  EX:
+ REQ: System shall allow faculty to submit tests remotely
+ EX: This will allow teachers the option to change tests after submission.  
+ATS 3.2.008
+ REQ: System shall time each test.
+ EX: Teacher wants to know how much time is needed for tests
 ATS 3.2.009
-  REQ: System shall be scalable 
-  EX: The system will be able to grow from desktops to mobile and becasue of considerable growth and advancement 
-  in technology.
-These two are duplicates and need work:
-ATS 3.2.013 //NEEDS SOME MORE INFO
-  REQ: System shall offer metrics for the testing services and teachers
-  EX: -What metrics?
-ATS 3.2.023 //is this the same as 3.2.013
-  REQ: System shall offer metrics for the testing services and teachers
-  EX: Teachers want better stats collection and ways to use it for tests
-
-
-
-
+ REQ: System shall return time statistics to the teacher.
+ EX: Teacher wants to know how much time is needed for tests
+ATS 3.2.010
+ REQ: System shall not require the downloading of any form.
+ EX: The submission process is bothersome and requires saving tests then emailing them. ATS 3.2.011
+ REQ: System shall give options for immediate access to student test results.
+ EX: The teacher wants a quicker turn-around time.
+ATS 3.2.012
+ REQ: System shall offer multiple options for question formatting.
+ EX: Teachers want the ability to make a variety of tests with different formats to meet their needs.
+ATS 3.2.013
+ REQ: System shall provide a way for creation of Scantron tests.
+ EX: Teachers want a Scantron software that is easy and quick to use.
+ATS 3.2.014
+ REQ: System shall allow teachers to re-use old tests.
+ EX: Teachers want to be able to use old tests without having to resubmit them.
+ATS 3.2.015
+ REQ: System shall allow teachers to edit old tests for re-use.
+ EX: Teachers want the ability to edit old tests and re-use them for different classes.
+ATS 3.2.016
+ REQ: System shall only show available dates for testing.
+ EX: This will allow the teachers to know what dates are open for testing when scheduling the Testing Center.
+ATS 3.2.017
+ REQ: Teacher shall be able to select test dates when submitting tests.
+ EX: Teachers are in charge of selecting their own dates within the constraints of the program.
+ATS 3.2.018
+ REQ: Teachers shall only be able to submit bubble, write on, or computerized tests.
+ EX: The Testing Center does not want to anything besides these forms of tests.
+ATS 3.2.019
+ REQ: System shall provide test submission and test date selection in the same process.
+ EX: We want a single system that will allow the submission process to be simplified
+ATS 3.2.020
+ REQ: ATS shall provide test creation services.
+ EX: This will help the teachers have an “All-in-one” type application that they only need to use one screen to fulfill their test submission needs.
+ATS 3.2.021
+ REQ: System shall not hinder the proctoring of exams by enforcing a location on the teachers submitting the test.
+ EX: Some faculty members doesn’t use the services because they like to control the testing in their class, e.g. because the environment doesn’t allow them to accomplish their “educational goals”.
+ATS 3.2.022
+ REQ: System shall provide error checking for required fields during test creation.
+ EX: Teachers sometimes miss things, and don't want to run through the whole form to see what box they missed. We need to be able to show them what parts they missed when submitting a test.
+ATS 3.2.023
+ REQ: System shall notify via email of successful test submission to Teachers.
+ EX: This will allow the testing center and teachers to know that a test has been submitted.
+ATS 3.2.024
+ REQ: System shall notify via email of successful Testing Center reservation dates to Teachers.
+ EX: This will allow the testing center and teachers to know that a test date has been reserved.
+ATS 3.2.025
+ REQ: System shall schedule tests on a first come first serve basis.
+ EX: Teachers would like the opportunity to schedule their tests when desired (with the exception of finals week).
+ATS 3.2.026
+ REQ: The system shall allow for a teacher to change a test until a student has begun taking that test.
+ EX: Teachers might want to remove questions from the test that were not covered in class, or badly phrased.
+ATS 3.2.027
+ REQ: The System shall not allow a teacher to change a test after a student has begun taking that test.
+ EX: Once a student has begun a test, the test will be locked from modification in order to give all students an equal chance.
+ATS 3.2.028
+ REQ: ATS shall reflect the change of test grades on I-Learn.
+ EXP: In the case where a curve is desired, or when scores need to be corrected to due to teacher errors or ATS errors.
+Employee Requirements:
+ATS 3.2.029
+ REQ: The system shall be able to look up a student (including picture) based on I-Number.
+ EX: This provides a form of verification for the testing center staff when a student cannot produce an I-card.  This enables the employees to verify that a student is really who they say they are.
+ATS 3.2.030
+ REQ: System shall provide notifications about paper tests.
+ EX: Testing Center Employees don't like how the current notifications are from two different services.
+ATS 3.2.031
+ REQ: System shall provide notifications about electronic tests.
+ EX: Testing Center Employees don't like how the current notifications are from two different services.
+Other Requirements:
+ATS 3.2.032
+ REQ: The System shall interact with I-Learn interfaces to upload student grades.
+ EX: Once grades have been entered, ATS will interface with I-Learn so that the teacher and students can see grades within I-Learn.
+ATS 3.2.033
+ REQ: The System shall interact with I-Learn interfaces to upload test statistics.
+ EX: This will be useful for the teacher to understand how the test scores ranged, and for reporting. The statistical information may be broken down per user.
+ATS 3.2.034
+ REQ: System shall be able to handle multiple testing locations.
+ EX: For busy hours and/or for remote testing locations to use the same system as the Testing Center for check-ins and checkouts.
+ATS 3.2.035
+ REQ: Scores, test dates and tests shall be backed up outside of business hours.
+ EXP: For auditing purposes these things need to be kept backed up. See also ATS 3.4.010
+ 
 3.3.         Performance requirements
 ATS 3.3.001
-  REQ: The system shall support 500 students taking a test at any given time (either electronic or paper)
-  EX: There are large quantities of student who need uuse of the testing facilities and the rotation of students currently taking tests is very rapid, thus preventing congestion and allowing for a larger number of student to take their tests in a timely fashion.
+ REQ: The system shall support 500 students taking a test at any given time (either electronic or paper)
+ EX: There are large quantities of student who need use of the testing facilities and the rotation of students currently taking tests is very rapid, thus preventing congestion and allowing for a larger number of student to take their tests in a timely fashion.
 ATS 3.3.002
-  REQ: The system shall support 30 employee terminals
-  EX: At any given time there are a certain number of employees distributing tests.  This could increase or decrease depending on the current state of satelite centers and time during the semester.
-ATS 3.3.003 
-  REQ: The user interface shall enable a testing center employee with 1 month of experience to check out a test within 1 min 95% of the time.
-  EX: Wait time to enter the Testing center can be greatly reduced if the testing center employees are able to efficently and accurately distribute tests. ATS will facilite this.
+ REQ: The system shall support 30 employee terminals
+ EX: At any given time there are a certain number of employees distributing tests.  This could increase or decrease depending on the current state of satellite centers and time during the semester.
+ATS 3.3.003
+ REQ: The user interface shall enable a testing center employee with 1 month of experience to check out a test within 1 min 95% of the time.
+ EX: Wait time to enter the Testing center can be greatly reduced if the testing center employees are able to efficiently and accurately distribute tests. ATS will facilitate this.
 ATS 3.3.004
-  REQ: A mobile device (Microsoft Surface) used for testing shall be available within 1 minute of check in to be distributed to the next available student for test taking purposes.
-  EX: As the Testing center moves toward an all electronic testing environment the need to be able to use a computer that a previous student was using will increase.  This must be able to happen as quickly as the tests can be distributed.
-
-THIS DOES NOT BELONG HERE, BUT I AM STRUGGLING TO PLACE IT.  I THINK IT MIGHT GO IN  2.1.8, BUT I DON”T KNOW FOR SURE
-+System shall handle multiple testing locations
+ REQ: A mobile device (Microsoft Surface) used for testing shall be available within 1 minute of check in to be distributed to the next available student for test taking purposes.
+ EX: As the Testing center moves toward an all-electronic testing environment the need to be able to use a computer that a previous student was using will increase.  This must be able to happen as quickly as the tests can be distributed.
 
 
-3.4.	 Logical database requirements
+3.4.     	Logical database requirements
 ATS 3.4.001
-  REQ: The ATS database will perform cleanup after every year, removing already administered test dates, scores, and testing logs. 
-  EX: After the test has been taken and a student given a grade for their class there is no reason to keep this information. To avoid clutter that could slow down the system, we require this cleanup process yearly. This process will not remove metrics or tests that have not had complied metris (see ATS 3.4.005 and ATS 3.4.006)
+ REQ: The ATS database will perform cleanup after every year, removing already administered test dates, scores, and testing logs.
+ EX: After the test has been taken and a student given a grade for their class there is no reason to keep this information. To avoid clutter that could slow down the system, we require this cleanup process yearly. This process will not remove metrics or tests that have not had complied metrics (see ATS 3.4.005 and ATS 3.4.006)
 ATS 3.4.002
-  REQ: The ATS database shall distinguish between paper tests and electronic tests.
-  EX: For statistical purposes, the testing center would wish to know if the tests being taken were delivered electronicly or by paper.
+ REQ: The ATS database shall distinguish between paper tests and electronic tests.
+ EX: For statistical purposes, the testing center would wish to know if the tests being taken were delivered electronically or by paper.
 ATS 3.4.003
-  REQ: The ATS database shall store scores in a precentage fashion, 0% being the lowerst and 100% being the highest.
-  EX: This uniformity allows the testing center to avoid ambiguity on what a good or bad score is. Test scores may need to be transformed after submission in order to meet this requirement.
+ REQ: The ATS database shall store scores in a percentage fashion, 0% being the lowest and 100% being the highest.
+ EX: This uniformity allows the testing center to avoid ambiguity on what a good or bad score is. Test scores may need to be transformed after submission in order to meet this requirement.
 ATS 3.4.004
-  REQ: The test taken, tests scores, time the test was taken, and length of the test shall be accessable to internal systems for metrics.
-  EX: The testing center employees requested that these items be avaliable for metrics. These metrics would be avaliable to a select few testing center employees and teachers.
+ REQ: ATS shall provide the test taken, tests scores, time the test was taken, and length of the test for access to internal systems for metrics.
+ EX: The testing center employees requested that these items be available for metrics. These metrics would be available to a select few testing center employees and teachers.
 ATS 3.4.005
-  REQ: Metirs stored in the ATS database shall never be deleted.
-  EX: Metrics must be kept for the life of the system so that they can be recalled.
+ REQ: ATS shall not delete metrics stored in the database.
+ EX: Metrics must be kept for the life of the system so that they can be recalled.
 ATS 3.4.006
-  REQ: Test information may not be deleted from the ATs database until metrics are complied.
-  EX: This requirement attempts to avoid any bais by ensuring that no test is skipped over.
+ REQ: ATS shall not delete test information from the ATs database until metrics are compiled for that test.
+ EX: This requirement attempts to avoid any bias by ensuring that no test is skipped over.
 ATS 3.4.007
-  REQ: Database information shall be written in English
-  EX: Is is the university standard that the spoken language is english. For maintanability purposes, the database must also be written in English.
+ REQ: Database information shall be written in the English language.
+ EX: Is the university standard that the spoken language is English. For maintainability purposes, the database must also be written in English.
 ATS 3.4.008
-  REQ: The ATS database will only reveal test scores through the ATS system in FERPA compliant manners.
-  EX: To avoid potential problems with FERPA the system should not disclose it scores in any manner that is not secured through the already FERPA compliant ATS system. This ensures that the database will never be the problem if FERPA confidenciality is breached.
+ REQ: The ATS database will only reveal test scores through the ATS system in FERPA compliant manners.
+ EX: To avoid potential problems with FERPA the system should not disclose it scores in any manner that is not secured through the already FERPA compliant ATS system. This ensures that the database will never be the problem if FERPA confidentiality is breached.
 ATS 3.4.009
-  REQ: The ATS database will only be accessable by ATS and developers of ATS.
-  EX: Any other application must go through ATS. This ensures that the database will not breach any school or federal education standards.
+ REQ: ATS shall be the only program to access the ATS database.
+ EX: Any other application must go through ATS. This ensures that the database will not breach any BYU-Idaho or federal education standards.
 ATS 3.4.010
-  REQ: The ATS datatabe shall provide a history of actions taken by ATS.
-  EX: Logging of when the test is taken, how the test is taken, when the test is checked out, when the test is checked back in, how long the test took, and the score are all important in resolving potential disputes or accounts of cheating. For this reason all actions shall be logged and stored in the secure database.
+ REQ: The ATS database will only be accessible by ATS Administrators and developers of   ATS.
+ EX: To follow FERPA and BYU-Idaho regulations on the privacy of student data.
+ATS 3.4.011
+ REQ: The ATS database shall provide a history of actions taken by ATS.
+ EX: Logging of when the test is taken, how the test is taken, when the test is checked out, when the test is checked back in, how long the test took, and the score are all important in resolving potential disputes or accounts of cheating. For this reason all actions shall be logged and stored in the secure database.
+ATS 3.4.012
+ REQ: ATS database shall store previous tests from teachers for re-use.
+ EX: The database will keep teacher’s tests for future use.
+ATS 3.4.013
+ REQ: ATS database shall allow teachers full access their previously used tests.
+ EX: The database will allow for teachers to make revisions of their tests, and save it as a new revision.
 
-3.5.	 Design constraints
+
+3.5.     	Design constraints
 ATS 3.5.001
-  REQ: The ATS shall preform at 100% reliability in regards to student records and score tracking.
-  EX: The result of the ATS misrepresenting any student information and test scores would lead to many undesirable things such as poor grade and possibly repeat of the class.
+ REQ: The ATS shall perform at 100% reliability in regards to student records and score tracking.
+ EX: The result of the ATS misrepresenting any student information and test scores would lead to many undesirable things such as poor grade and possibly repeat of the class.
 ATS 3.5.002
-  REQ: The ATS shall be developed in a programing language currently taught at BYU-I.
-  EX: By developing in a language taught at BYU-I, the ATS would be able to be maintained by current staff, students, and other professionals at BYU-I.
-ATS 3.5.003
-  REQ: The ATS shall work with client computers running Windows OS.
-  EX: The systems that the ATS application will reside will all have a Windows OS and so the ATS must be able to work on a Windows platform.
+ REQ: The ATS shall work with client computers running Windows OS.
+ EX: The systems that the ATS application will reside will all have a Windows OS and so the ATS must be able to work on a Windows platform.
 
-3.5.1.	Standards compliance
+
+3.5.1.        Standards compliance
 ATS 3.5.1.001
-  REQ: The ATS shall comply with all FERPA privacy standards.
-  EX: All the information that the ATS retrieves about students and faculty must be kept confidential in accordance to the FERPA laws.
+ REQ: The ATS shall comply with all FERPA privacy standards.
+ EX: All the information that the ATS retrieves about students and faculty must be kept confidential in accordance to the FERPA laws.
 ATS 3.5.1.002
-  REQ: The ATS shall comply with all database standards of the Jenzebar system.
-  EX: Inputs and outputs of the ATS must comply with the standards set by the Jenzebar system otherwise it will not be able to communicate with it.
+ REQ: The ATS shall comply with all database standards of the Jenzabar system.
+ EX: Inputs and outputs of the ATS must comply with the standards set by the Jenzabar system otherwise it will not be able to communicate with it.
 ATS 3.5.1.003
-  REQ: The ATS shall comply with the I-Learn interface standards.
-  EX: I-Learn is currently used to host online testing. It also stores the grades for the students to have access to them. The data from the ATS must be in the format designated by the I-Learn system.
+ REQ: The ATS shall comply with the I-Learn interface standards.
+ EX: I-Learn is currently used to host online testing. It also stores and allows students access to grades. The data from the ATS must be in the format designated by the I-Learn system.
 
-3.6.	 Software system attributes
+
+3.6.     	Software system attributes
 ATS 3.6.001
-  REQ: The system shall be reset at least once a week.
-  EX: This is required so that common errors from memory caching can be avoided. This requirement help the system stay away from possible long term problems from overflow and underflow.
+ REQ: The system shall be reset at least once a week.
+ EX: This is required so that common errors from memory caching can be avoided. This requirement helps the system stay away from possible long term problems from overflow and underflow.
 
-3.6.1.	Reliability
-ATS 3.6.002
-  REQ: All test score submissions must recieve a confirmation from ATS of the result of the action.
-  EX: The system needs to avoid any possible problems caused by the unreliability of the internet or other interfaces. Forcing a transmission of a confirmation will ensure that no scores or logs are lost on the wire becasue of common problems such as packet loss.
 
-3.6.2.	Availability
-ATS 3.6.003
-  REQ: ATS shall be inaccesable for testing services outside of business hours (this excludes the viewing of submitted scores).
-  EX: In the event ATS runs into an error or is detects possible cheating ATS needs to be able to contact employees. For this reason ATS will only perform testing durring business hours. ATS also needs this time to perform backup's of the days activities (see ATS 3.4 of this document).
-ATS 3.6.004
-  REQ: Schedualed ATS exams will only be allowed burring their scheduled time.
-  EX: Schedualed tests will be the result of ADA comliance and will require additional setup by staff, it would be hard for staff or ATS to accomidate ADA compliance at last minuite.
-ATS 3.6.005
-  REQ: System shall allow teachers to change test content up to the time the test opens
-  EX: To avoid conflicts with multiple, and different versions of the test being administered.
-ATS 3.6.006
-  REQ: ATS shall allow teachers to change test dates up to the day the test is schedualed to open.
-  EX: This requirement gives ATS time and external systems time to sync the dates to all sytems. So that external only have to worry about a test changing mid day.
+3.6.1.        Reliability
+ATS 3.6.1.001
+ REQ: ATS shall provide confirmation of test score submission.
+ EX: ATS will display a confirmation of a successful submission.
+ATS 3.6.1.002
+ REQ: ATS shall provide an error if test score submission is hindered or stopped.
+ EX: ATS will display an error of why the test score submission failed.
 
-3.6.3.	Security
-ATS 3.6.007
-  REQ: System shall allow for remote proctoring. All student information will be displayed on remote screen for proctor.
-  EX: This helps electronic proctoring where it would allow proctors to see anytime someone switches from their specified program.
-ATS 3.6.008
-  REQ: System shall notify staff of detected attempts of cheating.
-  EX: There are certain items that are obvious flags for cheating, such as the testing program losing focus and other programs being opened. It will help proctors a lot to know when this happens so that they can direct their attention toward it and determine quickly if cheating is actually occouring.
-ATS 3.6.009
-  REQ: System shall allow for designated, non-faculty, persons to review assessments.
-  EXP: Some teachers don’t use the services very frequently because they mostly do writing tests that they like to look over or have their TA do it.
-ATS 3.6.010
-  REQ: System shall allow students to take exams only for classes currently registered for.
-  EXP: Teachers have had some issues with test previously including, students given wrong exam, used wrong key to 
-  grade, or proctors having hard time following instructions.
 
-3.6.4.	Maintainability
-ATS 3.6.011
-  REQ: The system shall be programmed in a language taught at BYU-Idaho.
-  EXP: The last system was programmed in PIC Basic and it was extremly hard to maintain. The reasons it was 
-  hard to maintain was the fact that not very many people know PIC Basic. For this reason, we need the system to 
-  built in a language that is understood by the students/faculty of BYU-Idaho. When the language is understood by these 
-  individuals it can be more easily maintained, in the future.
+3.6.2.        Availability
+ATS 3.6.2.001
+ REQ: ATS shall be inaccessible for student testing services outside of business hours (this excludes the viewing of submitted scores).
+ EX: In the event ATS runs into an error or is detects possible cheating, ATS needs to be able to contact employees. For this reason ATS will only perform testing during business hours. ATS also needs this time to perform backups of the day’s activities (see ATS 3.4 of this document).
+ATS 3.6.2.002
+ REQ: ATS shall allow scheduled student ATS exams only be allowed during their scheduled time.
+ EX: Scheduled tests will be the result of ADA compliance and will require additional setup by staff, it would be hard for staff or ATS to accommodate ADA compliance at last minute.
+3.6.3.        Security
+ATS 3.6.3.001
+ REQ: System shall allow for remote proctoring. All student information will be displayed on a remote screen for proctor.
+ EX: This allows proctors to see student’s screens and prevent students from switching from their specified program.
+ATS 3.6.3.002
+ REQ: System shall notify staff of detected attempts of cheating.
+ EX: There are certain items that are obvious flags for cheating, such as the testing program losing focus and other programs being opened. It helps proctors know when this happens so that they can direct their attention toward it and determine quickly if cheating is actually occurring.
+ATS 3.6.3.003
+ REQ: System shall allow for designated, non-faculty, personnel to review assessments.
+ EXP: Some teachers don’t use the services very frequently because they mostly do writing tests that they like to look over or have their TA do it.
+ATS 3.6.3.004
+ REQ: System shall allow students to take exams only for classes currently registered for.
+ EXP: Teachers have had some issues with test previously including, students given wrong exam, used wrong key to grade, or proctors having hard time following instructions.
 
-3.6.5.	Portability
-ATS 3.6.012
-  REQ: ATS shall allow satelite centers to be setup and used to house additional computers in time of need.
-  EX: The Testing Center is not very busy except for a few certain times. One of which is final times. Past semesters have proven that computer tests are in high demand during finals times and some students have had to wait a significant time to take their test. Allowing additional satelite centers would be a form of congestion control for these high occupancy times.
-  ????REQ: System shall be compatible with a Microsoft Surface.
-  
+
+3.6.4.        Maintainability
+ATS 3.6.4.001
+ REQ: The system shall be programmed in a language taught at BYU-Idaho.
+ EXP: We need the system to be developed in a language that is understood by the students/faculty of BYU-Idaho. When the language is understood by these individuals it can be more easily maintained, in the future.
+
+
+3.6.5.        Portability
+ATS 3.6.5.001
+ REQ: ATS shall allow satellite centers to be set up and used to house additional computers when needed.
+ EX: The Testing Center has times of high traffic (midterms, finals, etc...). Past semesters show that computer tests are in high demand during these times. Allowing satellite centers to be set up decongests the testing center during times of anticipated high traffic of students.
+
 
 
 3.7.         Organizing the specific requirements
