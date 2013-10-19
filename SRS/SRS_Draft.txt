@@ -156,7 +156,7 @@ The ATS will provide both paper and online tests. The online testing is provided
 3.1.1 System interfaces
 ATS 3.1.1.001
  REQ: The ATS shall interface with I-Learn.
- EX: Teachers will need to upload test scores to I-Learn, which can then be viewed by the student. I learn will also provide the online platform for tests.
+ EX: Teachers will need to upload test scores to I-Learn, which can then be viewed by the student. I-Learn will also provide the online platform for tests.
 ATS 3.1.1.002
  REQ: The ATS shall interface with Jenzabar.
  EX: Jenzabar contains the data for each student. This data will be used for verifications and system logins.
