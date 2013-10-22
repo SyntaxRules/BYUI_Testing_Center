@@ -466,9 +466,177 @@ The Organization we have chosen is by user class.  The user classes are:
 
 4.1.	Appendix A: Employees
   
-  4.1.1 Questionnaires
-  
-  4.1.2 Summary
+4.1.1 Questionnaires
+
+4.1.1.1 What irritates you about the current system?
+
+4.1.1.2 What steps can be simplified in the current system?
+
+4.1.1.3 What parts of the current system do you wish were automated?
+
+4.1.1.4 What do you think about students registering for their test/seat before coming in?
+
+4.1.1.5 How would it help/hinder your work, if all tests were created/edited/taken online?
+
+4.1.1.6 Would it help if for multiple choice tests, the teacher could check an option to email the students results to them?
+
+4.1.1.7 Would you prefer all tests taken online and remove pen and paper tests?
+
+4.1.1.8 What do you do?
+
+4.1.1.9 What programs do you use?
+
+4.1.1.10 What is the most frequent process you go through?
+
+4.1.1.11 What is the most time consuming process?
+
+4.1.1.12 Most difficult process?
+
+4.1.1.13 What irritates you about the current system?
+
+4.1.1.14 What steps can be simplified in the current system?
+
+4.1.1.15 What parts of the current system do you wish were automated?
+
+4.1.1.16 What parts of the current system cause delays?
+
+4.1.1.17 What do you think about students registering for their test/seat before coming in?
+
+4.1.1.18 How would it help/hinder your work, if all tests were created/edited/taken online?
+
+4.1.1.19 Would it help if for multiple choice tests, the teacher could check an option to email the students results to them?
+
+4.1.1.20 What part of the current system is not working?
+
+4.1.1.21 What part of the current system like the best?
+
+4.1.1.22 What do you do in the testing center?
+
+4.1.1.23 What can be better in the testing center?
+
+4.1.1.24 What is the current and why is it a problem?
+
+4.1.1.25 What is the current process for taking a test (creation to checkout)?
+
+4.1.1.26 What programs are used with Scout to perform the tasks need to run the TC?
+
+4.1.1.27 What would you like the one program to have built into it?
+
+4.1.1.28 Do you think that students should be allowed to assign their testing taking seats?
+
+4.1.1.29 How can the current system be improved?
+
+4.1.1.30 What steps can be simplified in the current system?
+
+4.1.1.31 What parts of the current system do you wish were automated?
+
+4.1.1.32 What parts of the current system cause delays?
+
+4.1.1.33 How would it help/hinder your work, if all tests were created/edited/taken online?
+
+4.1.2 Summary
+
+4.1.2.1 How many different programs are needed to run the system and it does not directly connect with the online tests or ilearn just prints out cover sheets.
+
+4.1.2.2 The current system is so outdated that a program with more of the needed programs under one program and maintainable
+
+4.1.2.3 The test input
+
+4.1.2.4 It has been thought of but at this point no good solution has been found but is open to the possibility
+
+4.1.2.5 This would help a lot and could open up many new test options and ideas.
+
+4.1.2.6 That is already taken care of by the facility.
+
+4.1.2.7 Yes they would be more efficient and open up more possibilities of tests.
+
+4.1.2.8 Put pen and paper tests into the system.  This includes managing scheduling.
+
+4.1.2.9 Just scout.
+
+4.1.2.10 Assigning unique keys to tests, and filling in those keys on bubble sheets.
+
+4.1.2.11 Assigning point values to questions.
+
+4.1.2.12 Assigning point values to questions.
+
+4.1.2.13 Editing scoring is something that is really tedious, and irritates me.
+•	Putting all of the editing questions on one screen would be wonderful, because sometimes it is hard to remember where you are when you have to go and edit each individual question on one screen a piece.
+•	Text fields in the GUI would be nice like a form.
+4.1.2.14 Needs to display all deadlines for different sections of the same test on one screen.
+•	Recurring problem that you have to go into certain screens and come back out for information that could all be edited, and/or displayed on one screen.
+•	Test information sheets need to be connected to the program would be nice to be a form.
+4.1.2.15 It picks up pretty much everything.
+
+4.1.2.16 Its pretty fast.
+
+4.1.2.17 It wouldn't work, because students sometimes aren't on time, test time is hard to speculate etc...
+
+4.1.2.18 Then I wouldn't need student helpers, and we would cut back on employees, or even the students might be able to do my job.  It would be nice to have the teachers responsible for their corrections so they could have more control over their own tests, and any mistakes that they find.
+
+4.1.2.19 That is already taken care of.
+
+4.1.2.20 The person I interview hate when the scout not working. Also, the person like the current system.
+
+4.1.2.21 The person likes the keep track paper test on the system.
+
+4.1.2.22 Person I interview one who hider the student to work at the testing center. The person teach the student how to use the system and the student have test to see they can do the wall. The wall is the were all the paper test are at.
+
+4.1.2.23 Planning on having music in music room and add plant or color in the testing room. Also, they are getting 30 tablet in near future.
+
+4.1.2.24 Retired people who made the system (Scout – picBasic (not known language), only know the system currently
+•	Pen/pencil exams atm, want computer based for random questions, security
+•	Cover sheet is the time stamp, print on demand reuse of old used tests or prints new ones when needed
+•	Scout does know how many people currently taking a test
+•	Tracks by end not from beginning
+•	Always keeping track of statistics instead of doing it by hand
+o	On hand statistics for easy changing
+o	Paper reports and hand enter into excel
+•	lines
+o	Not enough computers (extra hardware)
+o	 Free time open after 2 (more people late in the day)
+4.1.2.25 first faculty create exam (key and test) (paper/pencil)
+•	TC makes sure scheduling (do not over schedule) looks at closing date
+o	Currently using excel
+o	No method of control for finals
+o	 Possible scheduling program for them
+•	Enter exam into Scout
+o	19 data to change for each test
+•	Put on the wall (test ready for print/taking)
+o	Picture authentication into system (currently using another program)
+o	Capability with grade book
+o	show  how well you are doing on topics. (test info for teachers and students)
+o	score display is good
+o	using 12 different programs, want one program to do it all
+o	check in mobile, drop off check out like calculator
+o	web based testing/ web available
+o	have capability for remote but information must be on screen because all info is on the cover sheet (not allow take test yet, because if students see test on ilearn they can take even if they are not supposed to yet)
+4.1.2.26 Power point: test schedule
+•	Exam stat: psychometrics
+•	Javaappts: picture look up
+•	Php: website/ score delivery
+•	Ems: ada scheduling (disabilities people)
+•	Dos: Jenzabar import (student/fac/ course info)
+•	Outlook: communications
+•	Scout: test entry/ delivery/ number keeping/ records
+4.1.2.27 scheduling, testing, analysis, test score delivery
+
+4.1.2.28 No because each student takes different amounts of time for taking a test, empty time or take time from others
+•	implementing, first come first serve for students
+•	Teachers would have control of test schedule days, instead of TC staff
+4.1.2.29 The system needs to give better feedback to the student and instructor. Confusion over the proctoring rotation causes delays.
+
+4.1.2.30 Simplify how teachers create and submit tests. The system needs to allow them to do it on their own and not go through the testing center secretary.
+
+4.1.2.31 Booklet number selection should be automated.
+
+4.1.2.32 Sorting the tests into files cause delays. It takes a long time for the scanners to check in and out testing center equipment.
+
+4.1.2.33 Online tests can hinder work because the teacher did not put in information correctly. This happens often. 
+•	Online tests would cause less printing and quicker filing on the computer removing many delays.
+•	It would require more proctors to cover both the scanning of the room and putting in the passwords for online tests. 
+•	Students can cheat with online tests by clicking “save for later” then walk out of the testing center and do it at home.
+•	If the system ever goes down the TC would have to close down causing major problems.  
 
 4.2.        Appendix B: Faculty
 
