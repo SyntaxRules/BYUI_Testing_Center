@@ -701,5 +701,27 @@ o	have capability for remote but information must be on screen because all info 
 4.3   Appendix C: Students
   
   4.3.1 Questionnaires
+	Would you like an option to schedule a time to take your test?
+	Is waiting in line at the testing center a problem for you??
+	What information would be useful to know when entering the line?
+	How long is your average wait in the Testing Center Line?
+	Have you ever tried to look at your grades from the testing center web site?
+	Do you ever look at the screen outside the testing center exit door (to know your test score)?
+	How would you like to be informed about your test results?
+	How often do you have to go to the testing center to take a test?
+	Do you get stressed when you wait in line?
+	Do you have any problems when arriving at the testing center? what are they?
+	Do you prefer a room with music when testing?
+	What would you change with the testing center?
+	Would you prefer an option to use your I-number instead of your I-card?
+	Would you be opposed to taking your test in a different location given the facilities to do so?
+	Do you prefer paper or online tests (both in the testing center)? Why?
+	When taking an online test would you prefer a touch screen/stylus interface?
   
   4.3.2 Summary
+	Generally student don't have to wait in the testing center line- only in times of extreme demand like finals. Lines are not a huge problem, so our system should not make line management a huge focus. However many student said they would enjoy the option to schedule their test time and reserve a seat.
+	When arriving students usually want to know how long the wait time is, what they can have on their test, and what is allowed in the testing center. Most of this information is readily available in line already, as well as online.
+	Students are satisfied with how the current system displays their scores, but most are uninformed that they can see their test result on the testing center website. Some students expressed interest in receiving test scores via Email or Text.
+	The majority of students are in agreeance with taking their tests electronically- but agree the system does not work with certain classes like math class where showing work is required. However students prefer the instant feedback of online tests. 
+	No students where opposed to taking their test in a different location than the testing center.
+	
